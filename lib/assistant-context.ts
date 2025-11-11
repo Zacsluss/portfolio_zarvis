@@ -391,7 +391,7 @@ Now help visitors discover ${personal.name}'s impressive blend of enterprise tec
 }
 
 export const assistantConfig = {
-  model: 'gpt-4o', // Full GPT-4o model - same intelligence as ChatGPT.com
+  model: 'gpt-4o-mini', // GPT-4o-mini - fast, affordable, and highly capable
   temperature: 0.8, // Slightly higher for more creative, human-like responses
   maxTokens: 1000, // Increased for richer responses and D&D narratives
   voiceModel: 'tts-1', // For text-to-speech
