@@ -66,7 +66,7 @@ export function Leadership() {
           </h2>
           <p className="text-lg text-white/70 max-w-3xl mx-auto leading-relaxed">
             I believe the best technology leaders are <strong>force multipliers</strong> — not gatekeepers.
-            Over the past 6+ years leading enterprise transformations, I&apos;ve developed a philosophy that combines
+            Over 4+ years at Computershare driving enterprise transformations, I&apos;ve developed a philosophy that combines
             strategic vision with tactical execution, data-driven decision-making with human-centered design.
           </p>
         </motion.div>
