@@ -459,8 +459,8 @@ Lead CRM Systems Analyst architecting platforms for 3K+ users across 22 countrie
 <a href="https://linkedin.com/in/zacharyjsluss">
   <img src="https://img.shields.io/badge/LinkedIn-Zachary_Sluss-064789?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:zacsluss@yahoo.com">
-  <img src="https://img.shields.io/badge/Email-zacsluss@yahoo.com-b91c1c?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="mailto:zacharyjsluss@gmail.com">
+  <img src="https://img.shields.io/badge/Email-zacharyjsluss@gmail.com-b91c1c?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="https://raw.githubusercontent.com/Zacsluss/portfolio_zarvis/main/public/resume.pdf">
   <img src="https://img.shields.io/badge/Resume-Download_Resume-7c3aed?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
