@@ -34,3 +34,13 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# claude code
+.claude/
+
+# backup files
+*.backup
+*-old.ts
+*-old.tsx
+*-old.js
+*-old.jsx
