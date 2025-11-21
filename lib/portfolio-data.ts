@@ -90,7 +90,7 @@ export const portfolioData: PortfolioData = {
     title: 'Principal CRM & Enterprise Platforms Solutions Architect',
     tagline:
       '8+ years leading Salesforce-centric and enterprise platform transformations in global, highly regulated environments. Design and govern multi-cloud CRM, data, and automation capabilities that drive 40%+ productivity gains and 1,000+ hours of annual time savings.',
-    bio: "Principal CRM & Enterprise Platforms Solutions Architect partnering with executives to shape $1M–$10M+ technology portfolios, define reference architectures and roadmaps, and build governed, highly adoptable workflows for sales, operations, and leadership teams.\n\nBy day, I architect multi-cloud systems and negotiate million-dollar vendor contracts; by night, I build unique digital experiences and pilot drones through physics-defying spaces. Whether it's enterprise architecture or visual experiments, my work always comes down to the same thing: precision, performance, and a curiosity that never switches off.",
+    bio: 'Principal CRM & Enterprise Platforms Solutions Architect with 8+ years leading Salesforce-centric and enterprise platform transformations in global, highly regulated environments. Design and govern multi-cloud CRM, data, and automation capabilities that drive 40%+ productivity gains and 1,000+ hours of annual time savings. Partner with executives to shape $1M–$10M+ technology portfolios, define reference architectures and roadmaps, and build governed, highly adoptable workflows for sales, operations, and leadership teams.',
     location: 'New Hampshire, USA (Remote)',
     email: 'zacharyjsluss@gmail.com',
     phone: '(603) 515-6051',
