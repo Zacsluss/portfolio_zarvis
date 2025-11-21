@@ -89,8 +89,8 @@ export const portfolioData: PortfolioData = {
     name: 'Zachary Sluss',
     title: 'Principal CRM & Enterprise Platforms Solutions Architect',
     tagline:
-      '8+ years leading Salesforce-centric and enterprise platform transformations in global, highly regulated environments. Design and govern multi-cloud CRM, data, and automation capabilities that drive 40%+ productivity gains and 1,000+ hours of annual time savings.',
-    bio: 'Principal CRM & Enterprise Platforms Solutions Architect with 8+ years leading Salesforce-centric and enterprise platform transformations in global, highly regulated environments. Design and govern multi-cloud CRM, data, and automation capabilities that drive 40%+ productivity gains and 1,000+ hours of annual time savings. Partner with executives to shape $1M–$10M+ technology portfolios, define reference architectures and roadmaps, and build governed, highly adoptable workflows for sales, operations, and leadership teams.',
+      'Enterprise Technology Leader with 8+ years specializing in $3M+ CRM, ERP, and Data ecosystems for Fortune 500-scale enterprises - delivering 40%+ productivity gains and governing global multi-cloud portfolios across 20+ countries',
+    bio: 'Principal CRM & Enterprise Platforms Solutions Architect with 8+ years leading Salesforce-centric and enterprise platform transformations in global, highly regulated environments. Design and govern multi-cloud CRM, data, and automation capabilities that drive 40%+ productivity gains and 1,000+ hours of annual time savings.\n\nPartner with executives to shape $1M–$10M+ technology portfolios, define reference architectures and roadmaps, and build governed, highly adoptable workflows for sales, operations, and leadership teams.',
     location: 'New Hampshire, USA (Remote)',
     email: 'zacharyjsluss@gmail.com',
     phone: '(603) 515-6051',
@@ -121,12 +121,11 @@ export const portfolioData: PortfolioData = {
       ],
       technologies: [
         'Salesforce Multi-Cloud',
-        'Salesforce Marketing Cloud',
         'MuleSoft',
         'API Management',
         'Tableau',
         'Power BI',
-        'SQL',
+        'Looker',
         'AWS',
         'Azure',
         'ServiceNow',
@@ -142,7 +141,7 @@ export const portfolioData: PortfolioData = {
       startDate: '2022-12',
       endDate: '2023-07',
       description:
-        'Led enterprise-wide CRM transformation and integration initiatives, driving process standardization and compliance frameworks.',
+        'Led enterprise-wide CRM transformation and integration initiatives, building the technical foundation for global platform standardization.',
       achievements: [
         'Architect and lead a global digital transformation program that improves sales and operational throughput by 40%, automates 1,000+ hours annually, and enforces global process standardization through API-led integration frameworks',
         'Design and implement the enterprise governance and compliance model, aligning CRM, integration, and analytics platforms to SOX controls and privacy requirements (GDPR, CCPA) to maintain 100% audit readiness and zero regulatory breaches across all markets',
@@ -151,10 +150,11 @@ export const portfolioData: PortfolioData = {
       technologies: [
         'Salesforce',
         'MuleSoft',
-        'API Integration',
         'Workday HCM',
         'SAP ERP',
+        'Data Migration',
         'Process Automation',
+        'Azure DevOps',
       ],
     },
     {
@@ -164,17 +164,18 @@ export const portfolioData: PortfolioData = {
       startDate: '2021-10',
       endDate: '2022-12',
       description:
-        'Built analytics foundations and reporting frameworks to enable data-driven sales operations.',
+        'Drove sales analytics strategy and executive reporting capabilities, establishing data-driven decision frameworks across global operations.',
       achievements: [
         'Enable executive and board-level decision intelligence by designing Salesforce-centered analytics architectures and dashboards for real-time forecasting, pipeline visibility, and revenue insights across regions and product lines',
-        'Built analytics frameworks for sales forecasting and pipeline management',
-        'Implemented data quality controls and validation rules improving CRM data integrity',
+        'Built analytics frameworks for sales forecasting and pipeline management, improving data-driven decision making across 22+ countries',
+        'Implemented data quality controls and validation rules improving CRM data integrity and reporting accuracy',
       ],
       technologies: [
         'Salesforce Sales Cloud',
         'Tableau',
         'Power BI',
         'Analytics',
+        'Reporting',
         'Data Quality Management',
       ],
     },
@@ -375,7 +376,7 @@ export const portfolioData: PortfolioData = {
       category: 'Platforms, Data & Analytics',
       skills: [
         { name: 'AWS (Certified)', level: 'Expert', certified: true },
-        { name: 'Entra', level: 'Advanced' },
+        { name: 'Microsoft Entra', level: 'Advanced' },
         { name: 'Looker', level: 'Advanced' },
         { name: 'MS Power Platform', level: 'Expert' },
         { name: 'Oracle Cloud Apps', level: 'Advanced' },
@@ -399,10 +400,13 @@ export const portfolioData: PortfolioData = {
         { name: 'API Integration & Management (MuleSoft)', level: 'Expert' },
         { name: 'Automation & Orchestration (Blue Prism, UiPath, Workato)', level: 'Advanced' },
         {
-          name: 'Collaboration & Delivery (Azure DevOps, Confluence, Jira, Teams, Slack)',
+          name: 'Collaboration & Delivery (Azure DevOps, Confluence, Jira, Microsoft Teams, Slack)',
           level: 'Expert',
         },
-        { name: 'Containerization & IaC (CloudFormation, Docker, Kubernetes)', level: 'Advanced' },
+        {
+          name: 'Containerization & IaC (CloudFormation, Docker, Kubernetes)',
+          level: 'Intermediate',
+        },
         { name: 'End-to-end Workflow Modernization', level: 'Expert' },
         { name: 'Marketing & GTM Tools (HubSpot, Marketo, Pardot)', level: 'Advanced' },
         { name: 'Salesforce Flow', level: 'Expert' },
@@ -418,7 +422,8 @@ export const portfolioData: PortfolioData = {
       endDate: '2016-12',
       achievements: [
         'Minor in Community and Environmental Planning',
-        'Certifications: AWS, Certified Tableau Desktop Specialist, Salesforce Certified Platform Administrator',
+        'Coursework in business management, analytics, finance, computer science, marketing, and natural sciences',
+        'Developed strong analytical and strategic thinking foundations',
       ],
     },
   ],
@@ -430,7 +435,7 @@ export const portfolioData: PortfolioData = {
       description: 'Interactive 360-degree aerial photography experiences',
       url: 'https://www.kuula.co/profile/Drone_360_Aerial_Photography',
       category: 'Aerial Photography',
-      image: '/portfolio-images/360Photo.webp',
+      image: 'portfolio-images/360Photo.webp',
     },
     {
       id: 'link-6',
@@ -438,7 +443,7 @@ export const portfolioData: PortfolioData = {
       description: 'Professional drone photography collection',
       url: 'https://drive.google.com/drive/folders/1aJG3T-TVUoJ-Xc6CdCvK2HZTf-PCBpDW?usp=sharing',
       category: 'Aerial Photography',
-      image: '/portfolio-images/DronePhoto.webp',
+      image: 'portfolio-images/DronePhoto.webp',
     },
     {
       id: 'link-7',
@@ -446,7 +451,7 @@ export const portfolioData: PortfolioData = {
       description: 'Cinematic drone video productions',
       url: 'https://www.youtube.com/channel/UCjnD1inIRh9eKjrl4LfwLcQ',
       category: 'Aerial Photography',
-      image: '/portfolio-images/Video.webp',
+      image: 'portfolio-images/Video.webp',
     },
     // Certifications (alphabetically sorted)
     {
@@ -456,7 +461,7 @@ export const portfolioData: PortfolioData = {
         'Professional certifications and continuous learning achievements in Salesforce and enterprise technologies',
       url: 'https://www.salesforce.com/trailblazer/zacharyjsluss',
       category: 'Certifications',
-      image: '/portfolio-images/certificationpicture.png',
+      image: 'portfolio-images/certificationpicture.png',
     },
     // Creative Arts (alphabetically sorted)
     {
@@ -465,7 +470,7 @@ export const portfolioData: PortfolioData = {
       description: 'Creative artwork and digital illustrations',
       url: 'https://www.deviantart.com/theoryart777',
       category: 'Creative Arts',
-      image: '/portfolio-images/images.webp',
+      image: 'portfolio-images/images.webp',
     },
     {
       id: 'link-4',
@@ -473,7 +478,7 @@ export const portfolioData: PortfolioData = {
       description: 'Graphic design and visual branding projects',
       url: 'https://drive.google.com/drive/folders/1giTNNrjznLS9RILHq9C9vCQQjWxCYgxD?usp=sharing',
       category: 'Creative Arts',
-      image: '/portfolio-images/digitaldesign.webp',
+      image: 'portfolio-images/digitaldesign.webp',
     },
     {
       id: 'link-3',
@@ -481,7 +486,7 @@ export const portfolioData: PortfolioData = {
       description: 'Original music compositions and productions',
       url: 'https://drive.google.com/drive/folders/1ET30TX7_lST5Cp3EsNp7ak-S4WcLffar?usp=drive_link',
       category: 'Creative Arts',
-      image: '/portfolio-images/music.webp',
+      image: 'portfolio-images/music.webp',
     },
     // Personal Projects (alphabetically sorted)
     {
@@ -491,7 +496,7 @@ export const portfolioData: PortfolioData = {
         'A fun, interactive web tool that transforms 3D animated models into live ASCII art using just text characters',
       url: 'https://github.com/Zacsluss/ascii_3d_animator',
       category: 'Personal Projects',
-      image: '/portfolio-images/asciipicture.png',
+      image: 'portfolio-images/asciipicture.png',
     },
     {
       id: 'link-11',
@@ -500,7 +505,7 @@ export const portfolioData: PortfolioData = {
         'Crystal Blitz is an intense arena shooter where you face endless waves of intelligent enemies',
       url: 'https://github.com/Zacsluss/crystal_blitz',
       category: 'Personal Projects',
-      image: '/portfolio-images/crystalblitzpicture.png',
+      image: 'portfolio-images/crystalblitzpicture.png',
     },
     {
       id: 'link-12',
@@ -509,7 +514,7 @@ export const portfolioData: PortfolioData = {
         'DATAPHREAK transforms impossible data challenges into 30-second solutions for analyzing CSV files and detecting patterns',
       url: 'https://github.com/Zacsluss/dataphreak',
       category: 'Personal Projects',
-      image: '/portfolio-images/dataphreakpicture.png',
+      image: 'portfolio-images/dataphreakpicture.png',
     },
     {
       id: 'link-15',
@@ -517,7 +522,7 @@ export const portfolioData: PortfolioData = {
       description: 'Open source projects, code repositories, and software development work',
       url: 'https://github.com/Zacsluss',
       category: 'Personal Projects',
-      image: '/portfolio-images/github.png',
+      image: 'portfolio-images/github.png',
     },
     {
       id: 'link-9',
@@ -526,7 +531,7 @@ export const portfolioData: PortfolioData = {
         'An interactive particle physics simulation that brings real science to life through stunning visual effects',
       url: 'https://github.com/Zacsluss/particle_physics_simulator',
       category: 'Personal Projects',
-      image: '/portfolio-images/particlepicture.png',
+      image: 'portfolio-images/particlepicture.png',
     },
     {
       id: 'link-13',
@@ -534,7 +539,7 @@ export const portfolioData: PortfolioData = {
       description: 'A fun Conversation AI enabled portfolio with interactive chat capabilities',
       url: 'https://github.com/Zacsluss/portfolio_zarvis',
       category: 'Personal Projects',
-      image: '/portfolio-images/portfoliopicture.png',
+      image: 'portfolio-images/portfoliopicture.png',
     },
   ],
 };
