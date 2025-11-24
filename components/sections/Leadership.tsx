@@ -7,72 +7,83 @@ import Image from 'next/image';
 
 const principles = [
   {
-    icon: "⚡",
+    icon: '⚡',
     title: "Empower, Don't Bottleneck",
-    description: "Build systems and people that scale beyond me. The best leaders create force multipliers, not dependencies."
+    description:
+      'Build systems and people that scale beyond me. The best leaders create force multipliers, not dependencies.',
   },
   {
-    icon: "⚙️",
-    title: "Automate Relentlessly",
-    description: "If it's manual, it's technical debt. Every repeated process is an opportunity to give someone hours of their day back."
+    icon: '🤖',
+    title: 'Automate Relentlessly',
+    description:
+      "If it's manual, it's technical debt. Every repeated process is an opportunity to give someone hours of their day back.",
   },
   {
-    icon: "🎯",
-    title: "Align to Business Outcomes",
-    description: "Technology for technology's sake is waste. Every platform, every integration, every line of code must drive measurable business value."
+    icon: '🎯',
+    title: 'Align to Business Outcomes',
+    description:
+      "Technology for technology's sake is waste. Every platform, every integration, every line of code must drive measurable business value.",
   },
   {
-    icon: "📊",
-    title: "Lead with Data, Decide with Context",
-    description: "Analytics inform strategy, but context drives decisions. Numbers tell you what happened — understanding why requires human insight."
+    icon: '📊',
+    title: 'Lead with Data, Decide with Context',
+    description:
+      'Analytics inform strategy, but context drives decisions. Numbers tell you what happened — understanding why requires human insight.',
   },
   {
-    icon: "🌱",
-    title: "Lead by Example",
-    description: "If I'm asking my team to learn, I'm learning twice as hard. If I'm asking for innovation, I'm shipping personal projects at 60 FPS."
+    icon: '🌱',
+    title: 'Lead by Example',
+    description:
+      "If I'm asking my team to learn, I'm learning twice as hard. If I'm asking for innovation, I'm shipping personal projects at 60 FPS.",
   },
   {
-    icon: "🔄",
-    title: "Change is the Only Constant",
-    description: "Digital transformation isn't a project — it's a mindset. The enterprises that win are the ones that treat change as their competitive advantage."
-  }
+    icon: '🔄',
+    title: 'Change is the Only Constant',
+    description:
+      "Digital transformation isn't a project — it's a mindset. The enterprises that win are the ones that treat change as their competitive advantage.",
+  },
 ];
 
 export function Leadership() {
   const additionalLinks = portfolioData.additionalLinks || [];
 
   // Group links by category
-  const groupedLinks = additionalLinks.reduce((acc, link) => {
-    if (!acc[link.category]) {
-      acc[link.category] = [];
-    }
-    acc[link.category].push(link);
-    return acc;
-  }, {} as Record<string, typeof additionalLinks>);
+  const groupedLinks = additionalLinks.reduce(
+    (acc, link) => {
+      if (!acc[link.category]) {
+        acc[link.category] = [];
+      }
+      acc[link.category].push(link);
+      return acc;
+    },
+    {} as Record<string, typeof additionalLinks>
+  );
 
   return (
-    <section id="leadership" className="relative py-[6.9rem] px-[1.725rem]">
-      <div className="max-w-7xl mx-auto">
+    <section id="leadership" className="relative px-[1.725rem] py-[6.9rem]">
+      <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-[4.6rem]"
+          className="mb-[4.6rem] text-center"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-[1.725rem] quantum-text">
+          <h2 className="quantum-text mb-[1.725rem] text-4xl font-bold md:text-5xl">
             Leadership & Passions
           </h2>
-          <p className="text-lg text-white/70 max-w-3xl mx-auto leading-relaxed">
-            I believe the best technology leaders are <strong>force multipliers</strong> — not gatekeepers.
-            Over 4+ years at Computershare driving enterprise transformations, I&apos;ve developed a philosophy that combines
-            strategic vision with tactical execution, data-driven decision-making with human-centered design.
+          <p className="mx-auto max-w-3xl text-lg leading-relaxed text-white/70">
+            I believe the best technology leaders are{' '}
+            <span className="font-semibold text-accent-400">force multipliers</span> — not
+            gatekeepers. Throughout my career driving enterprise transformations, I&apos;ve
+            developed a philosophy that combines strategic vision with tactical execution,
+            data-driven decision-making with human-centered design.
           </p>
         </motion.div>
 
         {/* Leadership Principles Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[1.725rem] mb-[4.6rem]">
+        <div className="mb-[4.6rem] grid gap-[1.725rem] md:grid-cols-2 lg:grid-cols-3">
           {principles.map((principle, index) => (
             <motion.div
               key={index}
@@ -82,15 +93,15 @@ export function Leadership() {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="glass-card-hover glass-flash p-[1.725rem]"
             >
-              <div className="text-4xl mb-[1.15rem]">{principle.icon}</div>
-              <h3 className="text-xl font-bold mb-[0.86rem] text-accent-400">{principle.title}</h3>
-              <p className="text-white/70 text-sm leading-relaxed">{principle.description}</p>
+              <div className="mb-[1.15rem] text-4xl">{principle.icon}</div>
+              <h3 className="mb-[0.86rem] text-xl font-bold text-accent-400">{principle.title}</h3>
+              <p className="text-sm leading-relaxed text-white/70">{principle.description}</p>
             </motion.div>
           ))}
         </div>
 
         {/* Key Metrics */}
-        <div className="grid md:grid-cols-3 gap-[1.725rem] mb-[4.6rem]">
+        <div className="mb-[4.6rem] grid gap-[1.725rem] md:grid-cols-3">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -98,9 +109,13 @@ export function Leadership() {
             transition={{ duration: 0.6 }}
             className="glass-card-hover p-[2.3rem] text-center"
           >
-            <div className="text-5xl font-bold text-accent-400 mb-2">40%</div>
-            <div className="text-lg font-semibold text-white mb-2">Productivity Gains</div>
-            <div className="text-sm text-white/60">Through strategic automation & process redesign</div>
+            <div className="mb-3 text-6xl font-bold text-accent-400">40%</div>
+            <div className="mb-2 text-sm font-bold uppercase tracking-wider text-white">
+              PRODUCTIVITY GAINS
+            </div>
+            <div className="text-sm text-white/60">
+              Through strategic automation & process redesign
+            </div>
           </motion.div>
 
           <motion.div
@@ -110,8 +125,10 @@ export function Leadership() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="glass-card-hover p-[2.3rem] text-center"
           >
-            <div className="text-5xl font-bold text-accent-400 mb-2">1,000+</div>
-            <div className="text-lg font-semibold text-white mb-2">Hours Automated</div>
+            <div className="mb-3 text-6xl font-bold text-accent-400">1,000+</div>
+            <div className="mb-2 text-sm font-bold uppercase tracking-wider text-white">
+              HOURS AUTOMATED
+            </div>
             <div className="text-sm text-white/60">Annually across 3,000+ global users</div>
           </motion.div>
 
@@ -122,9 +139,13 @@ export function Leadership() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="glass-card-hover p-[2.3rem] text-center"
           >
-            <div className="text-5xl font-bold text-accent-400 mb-2">100%</div>
-            <div className="text-lg font-semibold text-white mb-2">SOX Compliance</div>
-            <div className="text-sm text-white/60">Zero breaches while enabling rapid innovation</div>
+            <div className="mb-3 text-6xl font-bold text-accent-400">100%</div>
+            <div className="mb-2 text-sm font-bold uppercase tracking-wider text-white">
+              SOX COMPLIANCE
+            </div>
+            <div className="text-sm text-white/60">
+              Zero breaches while enabling rapid innovation
+            </div>
           </motion.div>
         </div>
 
@@ -136,10 +157,10 @@ export function Leadership() {
           transition={{ duration: 0.6 }}
           className="mb-[3.45rem]"
         >
-          <h3 className="text-3xl font-bold mb-[1.15rem] text-center">Beyond the Enterprise</h3>
-          <p className="text-lg text-white/70 text-center max-w-2xl mx-auto mb-[3.45rem]">
-            Multi-passionate about AI/ML, digital art, music production, and 360° drone photography —
-            because curiosity makes better strategists.
+          <h3 className="mb-[1.15rem] text-center text-3xl font-bold">Beyond the Enterprise</h3>
+          <p className="mx-auto mb-[3.45rem] max-w-2xl text-center text-lg text-white/70">
+            Multi-passionate about AI/ML, digital art, music production, and 360° drone photography
+            — because curiosity makes better strategists.
           </p>
 
           <div className="space-y-[3.45rem]">
@@ -151,11 +172,9 @@ export function Leadership() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
               >
-                <h4 className="text-2xl font-bold mb-[1.725rem] text-accent-400">
-                  {category}
-                </h4>
+                <h4 className="mb-[1.725rem] text-2xl font-bold text-accent-400">{category}</h4>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.725rem]">
+                <div className="grid grid-cols-1 gap-[1.725rem] md:grid-cols-2">
                   {links.map((link, index) => (
                     <motion.a
                       key={link.id}
@@ -167,28 +186,28 @@ export function Leadership() {
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: index * 0.1 }}
                       whileHover={{ y: -5 }}
-                      className="glass-card-hover glass-flash p-[1.725rem] hover:bg-white/10 transition-all group overflow-hidden"
+                      className="glass-card-hover glass-flash group overflow-hidden p-[1.725rem] transition-all hover:bg-white/10"
                     >
                       <div className="flex items-start gap-[1.15rem]">
                         {/* Image Thumbnail */}
                         {link.image && (
-                          <div className="relative w-20 h-20 flex-shrink-0 rounded-xl overflow-hidden ring-2 ring-accent-500/20 group-hover:ring-accent-400/50 transition-all">
+                          <div className="relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-xl ring-2 ring-accent-500/20 transition-all group-hover:ring-accent-400/50">
                             <Image
                               src={link.image}
                               alt={link.title}
                               fill
-                              className="object-cover group-hover:scale-110 transition-transform duration-300"
+                              className="object-cover transition-transform duration-300 group-hover:scale-110"
                             />
                           </div>
                         )}
 
                         {/* Content */}
-                        <div className="flex-1 min-w-0">
-                          <h5 className="text-xl font-semibold mb-2 group-hover:text-accent-400 transition-colors flex items-center gap-2">
+                        <div className="min-w-0 flex-1">
+                          <h5 className="mb-2 flex items-center gap-2 text-xl font-semibold transition-colors group-hover:text-accent-400">
                             {link.title}
-                            <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0" />
+                            <ExternalLink className="h-4 w-4 flex-shrink-0 opacity-0 transition-opacity group-hover:opacity-100" />
                           </h5>
-                          <p className="text-white/70 text-sm leading-relaxed">
+                          <p className="text-sm leading-relaxed text-white/70">
                             {link.description}
                           </p>
                         </div>
