@@ -91,7 +91,7 @@ export function Leadership() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="glass-card-hover glass-flash p-[1.725rem]"
+              className="glass-card-hover glass-flash p-[1.725rem] text-center"
             >
               <div className="mb-[1.15rem] text-4xl">{principle.icon}</div>
               <h3 className="mb-[0.86rem] text-xl font-bold text-accent-400">{principle.title}</h3>
