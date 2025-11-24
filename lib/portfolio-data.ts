@@ -99,7 +99,7 @@ export const portfolioData: PortfolioData = {
   social: {
     github: 'https://github.com/Zacsluss/Portfolio',
     linkedin: 'https://linkedin.com/in/zacharyjsluss',
-    website: 'https://zacsluss.github.io/zacsluss',
+    website: 'https://github.com/Zacsluss/portfolio',
     deviantart: 'https://www.deviantart.com/theoryart777',
     youtube: 'https://www.youtube.com/channel/UCjnD1inIRh9eKjrl4LfwLcQ',
     kuula: 'https://www.kuula.co/profile/Drone_360_Aerial_Photography',

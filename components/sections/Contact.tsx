@@ -161,10 +161,10 @@ export function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:bg-matrix-500/20 hover:border-matrix-500 flex items-center gap-2 rounded-lg border border-gray-600 bg-gray-700/50 px-4 py-2 text-gray-300 transition-all hover:text-accent-400"
-                  aria-label="Website"
+                  aria-label="Experimental Portfolio"
                 >
                   <ExternalLink className="h-5 w-5" />
-                  <span>Website</span>
+                  <span>Experimental Portfolio</span>
                 </a>
               )}
             </div>
