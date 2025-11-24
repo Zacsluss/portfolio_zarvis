@@ -97,7 +97,7 @@ export const portfolioData: PortfolioData = {
     avatar: '/avatar.jpg',
   },
   social: {
-    github: 'https://github.com/Zacsluss/Portfolio',
+    github: 'https://github.com/Zacsluss',
     linkedin: 'https://linkedin.com/in/zacharyjsluss',
     website: 'https://github.com/Zacsluss/portfolio',
     deviantart: 'https://www.deviantart.com/theoryart777',
