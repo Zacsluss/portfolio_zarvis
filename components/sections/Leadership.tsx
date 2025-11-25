@@ -164,7 +164,7 @@ export function Leadership() {
             <h3 className="text-3xl font-bold text-white">Beyond the Enterprise</h3>
             <div className="h-[2px] flex-1 bg-gradient-to-r from-accent-400 to-transparent" />
           </div>
-          <p className="mx-auto mb-[3.45rem] max-w-2xl text-lg text-white/70">
+          <p className="mb-[3.45rem] max-w-3xl text-lg text-white/70">
             Multi-passionate about AI/ML, digital art, music production, and 360° drone photography
             — because curiosity makes better strategists.
           </p>
