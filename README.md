@@ -1507,6 +1507,8 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 
 **Always learning, always building.**
 
+---
+
 <div align="center">
 
 <a href="https://zacsluss.github.io/portfolio/">
