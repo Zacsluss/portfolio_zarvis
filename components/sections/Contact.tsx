@@ -23,7 +23,7 @@ export function Contact() {
     <section
       id="contact"
       ref={ref}
-      className="flex min-h-screen items-center px-[1.15rem] py-[5.75rem] sm:px-[1.725rem] lg:px-[2.3rem]"
+      className="flex items-center px-[1.15rem] py-[2.875rem] sm:px-[1.725rem] lg:px-[2.3rem]"
     >
       <div className="mx-auto w-full max-w-5xl">
         <motion.div
