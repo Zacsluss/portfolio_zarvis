@@ -67,8 +67,9 @@ export function Skills() {
                       key={skillIndex}
                       initial={{ opacity: 0, x: -20 }}
                       animate={isInView ? { opacity: 1, x: 0 } : {}}
+                      whileHover={{ x: 5, transition: { duration: 0.2 } }}
                       transition={{ duration: 0.4, delay: catIndex * 0.15 + skillIndex * 0.05 }}
-                      className="flex items-center justify-between"
+                      className="flex cursor-pointer items-center justify-between"
                     >
                       <span className="font-medium text-gray-200">{skill.name}</span>
                       <div className="flex items-center gap-2">
