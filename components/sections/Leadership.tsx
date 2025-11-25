@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { portfolioData } from '@/lib/portfolio-data';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Target } from 'lucide-react';
 import Image from 'next/image';
 
 const principles = [
@@ -68,11 +68,13 @@ export function Leadership() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-[4.6rem] text-center"
+          className="mb-[3.45rem]"
         >
-          <h2 className="quantum-text mb-[1.725rem] text-4xl font-bold md:text-5xl">
-            Leadership & Passions
-          </h2>
+          <div className="mb-[3.45rem] flex items-center gap-[1.15rem]">
+            <Target className="h-8 w-8 text-accent-400" />
+            <h2 className="quantum-heading text-4xl font-bold text-white">Leadership & Passions</h2>
+            <div className="h-[2px] flex-1 bg-gradient-to-r from-accent-400 to-transparent" />
+          </div>
           <p className="mx-auto max-w-3xl text-lg leading-relaxed text-white/70">
             I believe the best technology leaders are{' '}
             <span className="font-semibold text-accent-400">force multipliers</span> — not
