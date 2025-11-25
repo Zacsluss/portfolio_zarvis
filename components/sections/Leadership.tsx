@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { portfolioData } from '@/lib/portfolio-data';
-import { ExternalLink, Target } from 'lucide-react';
+import { ExternalLink, Target, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 
 const principles = [
@@ -159,8 +159,12 @@ export function Leadership() {
           transition={{ duration: 0.6 }}
           className="mb-[3.45rem] mt-[5.75rem]"
         >
-          <h3 className="mb-[1.15rem] text-center text-3xl font-bold">Beyond the Enterprise</h3>
-          <p className="mx-auto mb-[3.45rem] max-w-2xl text-center text-lg text-white/70">
+          <div className="mb-[3.45rem] flex items-center gap-[1.15rem]">
+            <Sparkles className="h-8 w-8 text-accent-400" />
+            <h3 className="text-3xl font-bold text-white">Beyond the Enterprise</h3>
+            <div className="h-[2px] flex-1 bg-gradient-to-r from-accent-400 to-transparent" />
+          </div>
+          <p className="mx-auto mb-[3.45rem] max-w-2xl text-lg text-white/70">
             Multi-passionate about AI/ML, digital art, music production, and 360° drone photography
             — because curiosity makes better strategists.
           </p>
