@@ -79,13 +79,13 @@ export function About() {
           </div>
 
           {/* Three Column Layout: Profile, Bio, Quick Facts */}
-          <div className="grid items-start gap-[2.3rem] md:grid-cols-3">
+          <div className="grid items-stretch gap-[1.725rem] md:grid-cols-5">
             {/* Profile Image Column */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="glass-card-hover glass-flash flex flex-col items-center p-[1.725rem]"
+              className="glass-card-hover glass-flash flex h-full flex-col items-center p-[1.725rem] md:col-span-1"
             >
               <div className="group relative mb-4">
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-accent-400 to-accent-600 opacity-75 blur transition duration-300 group-hover:opacity-100"></div>
@@ -103,7 +103,7 @@ export function About() {
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="glass-card-hover glass-flash p-[1.725rem]"
+              className="glass-card-hover glass-flash h-full p-[1.725rem] md:col-span-3"
             >
               <p className="mb-4 text-base leading-relaxed text-gray-300">{personal.bio}</p>
 
@@ -118,7 +118,7 @@ export function About() {
               initial={{ opacity: 0, x: 50 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="glass-card-hover glass-flash p-[1.725rem]"
+              className="glass-card-hover glass-flash h-full p-[1.725rem] md:col-span-1"
             >
               <h3 className="mb-6 text-xl font-semibold text-accent-400">Quick Facts</h3>
 
