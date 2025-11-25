@@ -1,54 +1,49 @@
 <div align="center">
 
-<!-- Hero Header with Name -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=AI%20Portfolio&fontSize=70&fontColor=FFFFFF&animation=twinkling&fontAlignY=25&desc=Conversational%20AI%20%E2%80%A2%20GPT-4o%20%E2%80%A2%20Next.js%2014&descSize=20&descAlignY=50&descAlign=50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Portfolio%20ZARVIS&fontSize=60&fontAlignY=35&desc=AI-Powered%20Interactive%20Portfolio&descAlignY=55&descSize=20"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=600&height=80&lines=88+tests+%E2%80%A2+38%25+coverage+%E2%80%A2+Next.js+14;GPT-4o+%2B+Whisper+%E2%80%A2+Edge+Runtime;Voice+Input+%E2%80%A2+Streaming+%E2%80%A2+Redis+Cache" alt="Typing SVG" />
 
 <br/>
 
-<!-- Animated Typing Subtitle -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=700&lines=Talk+to+an+AI+trained+on+my+background!;Real-time+streaming+%E2%80%A2+Voice+input+%E2%80%A2+Production-ready;30-50%25+cost+savings+via+smart+caching;Built+with+Next.js+14+%2B+TypeScript+%2B+OpenAI" alt="Typing SVG" />
+<a href="https://portfoliozarvis.vercel.app/">
+  <img src="https://img.shields.io/badge/🚀_View_Live_Demo-2e7d5a?style=for-the-badge"/>
+</a>
+<a href="https://portfoliozarvis.vercel.app/resume.pdf">
+  <img src="https://img.shields.io/badge/📄_Download_Resume-7c3aed?style=for-the-badge"/>
+</a>
 
-<br/>
+<br/><br/>
 
-<!-- Main Action Buttons -->
-<p align="center">
-  <a href="https://portfoliozarvis.vercel.app/"><img src="https://img.shields.io/badge/🚀_VIEW-PORTFOLIO-2e8b57?style=for-the-badge&labelColor=000000&logo=vercel&logoColor=white" alt="Live Site"/></a>
-  <a href="https://github.com/Zacsluss/portfolio_zarvis/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/⬇️_DOWNLOAD-SOURCE_CODE-d97706?style=for-the-badge&labelColor=000000&logo=github&logoColor=white" alt="Download"/></a>
-</p>
-
-<!-- GitHub Stats Badges -->
-<p align="center">
-  <img src="https://img.shields.io/github/stars/Zacsluss/portfolio_zarvis?style=social" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/Zacsluss/portfolio_zarvis?style=social" alt="Forks"/>
-  <img src="https://img.shields.io/github/watchers/Zacsluss/portfolio_zarvis?style=social" alt="Watchers"/>
-  <img src="https://img.shields.io/github/license/Zacsluss/portfolio_zarvis?style=flat-square&color=555555" alt="License"/>
-  <img src="https://img.shields.io/github/last-commit/Zacsluss/portfolio_zarvis?style=flat-square&color=666666" alt="Last Commit"/>
-</p>
+![GitHub stars](https://img.shields.io/github/stars/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
+![GitHub forks](https://img.shields.io/github/forks/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
+![GitHub watchers](https://img.shields.io/github/watchers/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
+![License](https://img.shields.io/github/license/Zacsluss/portfolio_zarvis?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/Zacsluss/portfolio_zarvis?style=flat-square)
 
 </div>
-
-<br/>
 
 ---
 
 ## 👋 Hey, I'm Zac
 
-I built this portfolio with a conversational AI that knows everything about my professional background. Ask it about my experience, projects, or technical expertise — it responds in real-time with **streaming GPT-4o responses**.
+An **interactive portfolio website** that goes beyond static pages — featuring **ZARVIS**, an AI assistant powered by **OpenAI GPT-4o** and **Whisper** that actually knows my background, answers questions about my experience, and demonstrates conversational AI capabilities in production.
 
 **What makes it interesting:**
 
-- 🤖 Trained AI assistant (ZARVIS) with complete career context
-- 🎤 Voice input via OpenAI Whisper API
-- ⚡ Server-side streaming with <500ms TTFB
-- 💰 30-50% API cost reduction through intelligent caching
-- 🔒 Rate limiting, error monitoring, and production-ready security
+- 🎙️ **Voice-first interaction** — Whisper API transcribes your voice in real-time, you can literally talk to my portfolio
+- 🧠 **Context-aware responses** — GPT-4o trained on my actual resume, projects, and technical background
+- ⚡ **Production-grade infrastructure** — Edge runtime, Redis caching, rate limiting, error monitoring
+- 🎨 **Polished UX** — Framer Motion animations, glassmorphism effects, responsive design
 
-Built with Next.js 14, TypeScript, and OpenAI API!
+**Built with Next.js 14, TypeScript, OpenAI APIs, Vercel Edge, and Redis caching** to showcase both technical depth and design sensibility.
 
 <div align="center">
-<img src="public/profileai.gif" alt="AI Assistant Preview" width="800"/>
-<br/>
-<i>Real-time conversational AI — ask about my background, projects, or play D&D!</i>
+
+<img src="/profileai.gif" alt="ZARVIS AI Assistant Demo" width="800"/>
+
+_ZARVIS AI assistant in action — voice input, streaming responses, and contextual understanding_
+
 </div>
 
 ---
@@ -60,20 +55,20 @@ Built with Next.js 14, TypeScript, and OpenAI API!
 
 - [⚡ What This Does](#-what-this-does)
 - [🛠️ Tech Stack](#️-tech-stack)
-- [🏗️ How It Works / Architecture](#️-how-it-works--architecture)
+- [🏗️ How It Works - Architecture](#️-how-it-works---architecture)
 - [🚀 Quick Start](#-quick-start)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Development](#development)
-  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+  - [Production Build](#production-build)
+  - [Deploy to Vercel](#deploy-to-vercel)
+  - [Customize for Yourself](#customize-for-yourself)
 - [🔬 Technical Deep Dive](#-technical-deep-dive)
-  - [UI Components & State Management](#ui-components--state-management)
-  - [AI Assistant Architecture](#ai-assistant-architecture)
-  - [Performance Optimization](#performance-optimization)
+  - [AI Assistant Implementation](#ai-assistant-implementation)
+  - [Performance Benchmarks](#performance-benchmarks)
   - [Testing & Code Quality](#testing--code-quality)
-  - [Troubleshooting](#troubleshooting)
+  - [Observability & Monitoring](#observability--monitoring)
   - [Advanced Configuration](#advanced-configuration)
+  - [Troubleshooting](#troubleshooting)
 - [📄 License & Contributing](#-license--contributing)
 - [📬 About & Connect](#-about--connect)
 
@@ -88,44 +83,36 @@ Built with Next.js 14, TypeScript, and OpenAI API!
 
 <div align="center">
 
-**GPT-4o conversational AI** • **Voice input support** • **Streaming responses** • **Production-ready**
+| **88 tests** | **38% coverage** | **244 KB bundle** | **<500ms TTFB** |
+| :----------: | :--------------: | :---------------: | :-------------: |
+|   ✅ Pass    |       Jest       |    Next.js 14     |  Edge Runtime   |
 
 </div>
 
-This is an interactive portfolio website featuring **ZARVIS** - an AI assistant trained on my complete professional background. Visitors can have natural conversations about my experience, skills, and projects.
-
 ### Key Features
 
-#### 🤖 AI Assistant (ZARVIS)
+- 🎙️ **Voice-powered AI assistant** — Real-time voice transcription via Whisper API with auto-submit
+- 💬 **Intelligent chat interface** — Streaming GPT-4o responses with context awareness and markdown rendering
+- 🎨 **Interactive portfolio sections** — Animated components for About, Skills, Experience, Leadership, and Contact
+- ⚡ **Production-grade infrastructure** — Edge runtime deployment with Redis caching and rate limiting
+- 🔒 **Enterprise security** — Server-side API key protection, input sanitization, CSP headers, SOX-compliant patterns
+- 📊 **Observability built-in** — Sentry error tracking, structured logging, graceful error handling
+- 🧪 **Test coverage** — 88 unit + E2E tests covering services, components, and error boundaries
+- 🎭 **Polished animations** — Framer Motion scroll effects, glassmorphism UI, particle backgrounds
 
-- **Personality-driven AI**: Conversational, enthusiastic, and genuinely helpful
-- **Complete career context**: Trained on 8+ years of CRM/enterprise platform experience
-- **Dual modes**: Professional consultant OR Dungeons & Dragons Dungeon Master
-- **Real-time streaming**: Instant feedback with <500ms time-to-first-byte
-- **Context-aware responses**: Remembers conversation history
+### Tech Stack Summary
 
-#### 🎤 Voice Interface
-
-- **Speech-to-text**: OpenAI Whisper API transcription
-- **Real-time processing**: Instant voice message conversion
-- **Hands-free interaction**: Click, speak, done
-
-#### ⚡ Performance & Security
-
-- **Response caching**: 30-50% API cost reduction via SHA256-keyed cache
-- **Rate limiting**: 10 requests/min per IP (configurable)
-- **Input sanitization**: XSS and injection attack prevention
-- **Server-side API keys**: Never exposed to client
-- **Error monitoring**: Sentry integration for production tracking
-
-#### 🎨 Portfolio Sections
-
-- **Hero**: Animated 3D elements, particle effects, parallax
-- **About Me**: Three-column layout with bio, photo, quick facts
-- **Skills & Technologies**: 3 categories, 30+ technologies
-- **Experience**: Timeline with achievements and tech stacks
-- **Leadership & Passions**: Philosophy, metrics, creative work
-- **Contact**: Email, phone, social links, resume download
+| Category              | Technologies                                         |
+| --------------------- | ---------------------------------------------------- |
+| **Frontend**          | Next.js 14 (App Router), React 18, TypeScript 5.3    |
+| **AI/ML**             | OpenAI GPT-4o, Whisper API, Server-Sent Events (SSE) |
+| **State & Animation** | Zustand (1KB), Framer Motion 11                      |
+| **Styling**           | Tailwind CSS 3.4, Lucide React Icons                 |
+| **Caching & Storage** | Vercel KV (Redis), SHA256 hashing                    |
+| **Testing**           | Jest 30, Playwright 1.48, Testing Library            |
+| **Monitoring**        | Sentry error tracking, structured logging            |
+| **Deployment**        | Vercel Edge Functions, GitHub Actions                |
+| **Code Quality**      | Prettier, ESLint, Husky, lint-staged                 |
 
 </details>
 
@@ -134,7 +121,7 @@ This is an interactive portfolio website featuring **ZARVIS** - an AI assistant 
 ## 🛠️ Tech Stack
 
 <details open>
-<summary><b>Core Technologies & Dependencies</b></summary>
+<summary><b>What Powers This Portfolio</b></summary>
 
 <br/>
 
@@ -144,7 +131,7 @@ This is an interactive portfolio website featuring **ZARVIS** - an AI assistant 
 
 <img src="https://skillicons.dev/icons?i=nextjs,typescript,react,tailwind,vercel,github" alt="Tech Stack" />
 
-### Dependencies Overview
+### Core Dependencies
 
 <table>
 <tr>
@@ -165,52 +152,27 @@ This is an interactive portfolio website featuring **ZARVIS** - an AI assistant 
 <sub><b>Styling</b></sub>
 </td>
 </tr>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Zustand-4.5-4a5f8f?style=flat-square"/><br/>
+<sub><b>State Management</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Framer_Motion-11.0-ff006e?style=flat-square"/><br/>
+<sub><b>Animations</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Vercel_KV-3.0-000000?style=flat-square&logo=vercel&logoColor=white"/><br/>
+<sub><b>Redis Cache</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Sentry-8.0-362d59?style=flat-square&logo=sentry&logoColor=white"/><br/>
+<sub><b>Error Monitoring</b></sub>
+</td>
+</tr>
 </table>
 
 </div>
-
-<details>
-<summary><b>📦 Full Dependency List</b></summary>
-
-<br/>
-
-### Production Dependencies
-
-```json
-{
-  "next": "^14.2.0",
-  "react": "^18.3.0",
-  "react-dom": "^18.3.0",
-  "typescript": "^5.3.0",
-  "openai": "^6.7.0",
-  "zustand": "^4.5.0",
-  "framer-motion": "^11.0.0",
-  "tailwindcss": "^3.4.0",
-  "lucide-react": "^0.344.0",
-  "@vercel/analytics": "^1.1.1"
-}
-```
-
-### Development Dependencies
-
-```json
-{
-  "@playwright/test": "^1.48.0",
-  "jest": "^30.2.0",
-  "jest-environment-jsdom": "^30.2.0",
-  "@testing-library/react": "^16.3.0",
-  "@testing-library/jest-dom": "^6.9.1",
-  "@testing-library/user-event": "^14.6.1",
-  "@sentry/nextjs": "^8.0.0",
-  "@vercel/kv": "^3.0.0",
-  "husky": "^9.1.0",
-  "lint-staged": "^15.3.0",
-  "prettier": "^3.4.2",
-  "prettier-plugin-tailwindcss": "^0.6.9",
-  "eslint": "^8.56.0",
-  "eslint-config-next": "^14.2.0"
-}
-```
 
 ### Why These Choices?
 
@@ -224,11 +186,53 @@ This is an interactive portfolio website featuring **ZARVIS** - an AI assistant 
 | **Vercel KV**              | Distributed caching, edge-compatible, sub-10ms latency                   | External dependency, Redis syntax    |
 | **Jest + Playwright**      | Unit tests (fast feedback) + E2E tests (real user flows)                 | Dual test setup complexity           |
 
+<details>
+<summary><b>📦 Full dependency list</b></summary>
+
+<br/>
+
+**Production dependencies:**
+
+```json
+{
+  "@vercel/analytics": "^1.1.1",
+  "framer-motion": "^11.0.0",
+  "lucide-react": "^0.344.0",
+  "next": "^14.2.0",
+  "openai": "^6.7.0",
+  "react": "^18.3.0",
+  "react-dom": "^18.3.0",
+  "zustand": "^4.5.0"
+}
+```
+
+**Development dependencies:**
+
+```json
+{
+  "@next/bundle-analyzer": "^16.0.0",
+  "@playwright/test": "^1.48.0",
+  "@sentry/nextjs": "^8.0.0",
+  "@testing-library/jest-dom": "^6.9.1",
+  "@testing-library/react": "^16.3.0",
+  "@testing-library/user-event": "^14.6.1",
+  "@vercel/kv": "^3.0.0",
+  "husky": "^9.1.0",
+  "lint-staged": "^15.3.0",
+  "prettier": "^3.4.2",
+  "prettier-plugin-tailwindcss": "^0.6.9",
+  "eslint": "^8.56.0",
+  "eslint-config-next": "^14.2.0"
+}
+```
+
+</details>
+
 </details>
 
 ---
 
-## 🏗️ How It Works / Architecture
+## 🏗️ How It Works - Architecture
 
 <details open>
 <summary><b>System Architecture & Data Flow</b></summary>
@@ -255,43 +259,44 @@ graph TB
         J -->|No| L[OpenAI Service]
         L --> M[Stream Response]
         M --> N[Cache Response]
+
+        O["API: /api/transcribe"] --> P[Audio Validation]
+        P --> Q[Whisper API]
+        Q --> R[Return Text]
+
+        S["API: /api/tts"] --> T[Text Validation]
+        T --> U[OpenAI TTS]
+        U --> V[Return Audio]
     end
 
     subgraph "External Services"
-        O[OpenAI Platform]
-        P[Vercel KV Cache]
-        Q[Sentry Monitoring]
+        W[OpenAI GPT-4o]
+        X[OpenAI Whisper]
+        Y[Vercel KV Redis]
+        Z[Sentry]
     end
 
-    C -->|POST /api/chat| F
-    D -->|POST /api/transcribe| R["API: /api/transcribe"]
-    M -->|Server-Sent Events| C
-    L --> O
-    I --> P
-    F --> Q
-    R --> O
+    L --> W
+    Q --> X
+    I --> Y
+    N --> Y
+    A --> Z
 
-    style F fill:#4a5f8f
-    style I fill:#2d3561
-    style L fill:#ff006e
-    style O fill:#00ff88
+    style A fill:#4a5f8f
+    style B fill:#ff006e
+    style F fill:#2d3561
+    style O fill:#2d3561
+    style S fill:#2d3561
+    style W fill:#412991
+    style X fill:#412991
+    style Y fill:#000000
 ```
-
-### Request Flow
-
-1. **Client sends message** → POST to `/api/chat` with conversation history
-2. **Rate limiting** → Check IP against Vercel KV (10 req/min limit)
-3. **Input sanitization** → Remove control characters, limit length (5000 chars)
-4. **Cache lookup** → SHA256 hash of messages → Check Vercel KV
-5. **Cache miss** → Call OpenAI GPT-4o with streaming
-6. **Stream response** → Server-Sent Events back to client
-7. **Cache response** → Store in Vercel KV (1hr TTL)
 
 ### Component Hierarchy
 
 ```mermaid
-graph LR
-    App["app/page.tsx"] --> Nav[Navigation]
+graph TB
+    App[App Router] --> Nav[Navigation]
     App --> Sections[Portfolio Sections]
     App --> AI[AI Assistant]
 
@@ -311,37 +316,100 @@ graph LR
     style Store fill:#ff006e
 ```
 
-</details>
-
 <details>
-<summary><b>🔒 Security & Performance Features</b></summary>
+<summary><b>🔄 Data flow pipeline</b></summary>
 
 <br/>
 
-### Security Measures
+### Streaming Response Pipeline
 
-- ✅ **Server-side API key protection**: OpenAI key never exposed to client
-- ✅ **Rate limiting**: 10 requests/min per IP via Vercel KV
-- ✅ **Input sanitization**: Remove null bytes, control characters, XSS prevention
-- ✅ **Content Security Policy**: Strict CSP headers via Next.js config
-- ✅ **Environment variable validation**: Fail fast on missing required vars
-- ✅ **Error message sanitization**: No stack traces or sensitive data to client
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant C as Client
+    participant API as /api/chat
+    participant Cache as Vercel KV
+    participant OpenAI as GPT-4o
 
-### Performance Optimizations
+    U->>C: Types/speaks message
+    C->>API: POST request
+    API->>API: Rate limit check (10/min)
+    API->>API: Input sanitization
+    API->>Cache: Check cache (SHA256 key)
 
-- ✅ **Streaming responses**: <500ms TTFB via OpenAI streaming API
-- ✅ **Response caching**: SHA256-keyed cache with 1hr TTL (30-50% cost savings)
-- ✅ **Edge runtime**: Vercel Edge Functions for global low-latency
-- ✅ **Code splitting**: Next.js 14 automatic route-based splitting
-- ✅ **Image optimization**: Next.js Image component with WebP
-- ✅ **Dynamic imports**: Lazy load 3D components and effects
+    alt Cache Hit
+        Cache-->>API: Cached response
+        API-->>C: Stream cached (instant)
+    else Cache Miss
+        API->>OpenAI: Stream request
+        OpenAI-->>API: Stream tokens
+        API-->>C: Forward stream
+        API->>Cache: Store response (1hr TTL)
+    end
 
-### Monitoring & Observability
+    C->>U: Display streaming text
+```
 
-- ✅ **Sentry error tracking**: Client + server error monitoring
-- ✅ **Structured logging**: Consistent log format with context
-- ✅ **User-friendly errors**: Generic messages for users, detailed logs for devs
-- ✅ **API quota detection**: Graceful handling of OpenAI rate limits
+### Voice Transcription Flow
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant UI as Voice UI
+    participant API as /api/transcribe
+    participant Whisper as OpenAI Whisper
+
+    U->>UI: Hold to record
+    UI->>UI: Capture audio (WebM)
+    U->>UI: Release button
+    UI->>API: POST audio blob
+    API->>API: Validate size/type
+    API->>Whisper: Transcribe
+    Whisper-->>API: Return text
+    API-->>UI: Transcription
+    UI->>U: Display + auto-submit
+```
+
+</details>
+
+<details>
+<summary><b>🎯 Key technical decisions</b></summary>
+
+<br/>
+
+### Architecture Decision Records (ADRs)
+
+**1. Why Edge Runtime over Node.js Runtime?**
+
+- **Decision**: Deploy API routes to Vercel Edge Functions
+- **Context**: Need global low-latency responses (<500ms TTFB)
+- **Consequences**: Cold starts <50ms, but limited to Web APIs only (no fs, child_process)
+
+**2. Why Zustand over Redux/Context?**
+
+- **Decision**: Use Zustand for state management
+- **Context**: Simple chat state, no complex reducers needed
+- **Consequences**: 1KB bundle (vs 45KB Redux), simpler code, but smaller ecosystem
+
+**3. Why SHA256 cache keys over prompt hashing?**
+
+- **Decision**: Hash full message array with SHA256
+- **Context**: Need deterministic cache keys for identical conversations
+- **Consequences**: High cache hit rate (~35%), but cache poisoning if prompt injection succeeds
+
+**4. Why Server-Sent Events over WebSockets?**
+
+- **Decision**: Use SSE (ReadableStream) for streaming
+- **Context**: One-way streaming, no need for bidirectional
+- **Consequences**: Simpler than WebSockets, works on Edge, but can't send client→server during stream
+
+**5. Why Vercel KV over PostgreSQL?**
+
+- **Decision**: Use Redis (Vercel KV) for caching
+- **Context**: Need sub-10ms cache lookups on edge
+- **Consequences**: Perfect for cache, but not suitable for persistent data
+
+</details>
 
 </details>
 
@@ -384,7 +452,7 @@ npm -v   # Should be v9+
 </details>
 
 <details>
-<summary><b>💻 Installation</b></summary>
+<summary><b>💻 Local Development</b></summary>
 
 <br/>
 
@@ -405,22 +473,13 @@ pnpm install
 yarn install
 ```
 
-**Installation time:** ~60 seconds on fast connection
-
-</details>
-
-<details>
-<summary><b>⚙️ Configuration</b></summary>
-
-<br/>
-
-**Step 1: Create environment file**
+**Step 3: Create environment file**
 
 ```bash
 cp .env.example .env.local
 ```
 
-**Step 2: Add your API keys**
+**Step 4: Add your API keys**
 
 Edit `.env.local`:
 
@@ -436,121 +495,132 @@ KV_REST_API_TOKEN=your-vercel-kv-token
 SENTRY_DSN=your-sentry-dsn
 ```
 
-**Getting your OpenAI API key:**
-
-1. Go to [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
-2. Click "Create new secret key"
-3. Copy the key (starts with `sk-`)
-4. Add to `.env.local`
-
-**Getting Vercel KV (optional but recommended):**
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel link`
-3. Run `vercel env pull .env.local`
-4. KV credentials will be auto-populated
-
-</details>
-
-<details>
-<summary><b>🔧 Development</b></summary>
-
-<br/>
-
-**Start the dev server:**
+**Step 5: Start development server**
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser!
 
-**Available npm scripts:**
+**Development features:**
 
-| Command               | Description                      |
-| --------------------- | -------------------------------- |
-| `npm run dev`         | Start dev server with hot reload |
-| `npm run build`       | Build production bundle          |
-| `npm start`           | Start production server          |
-| `npm run lint`        | Run ESLint                       |
-| `npm run format`      | Format code with Prettier        |
-| `npm test`            | Run Jest tests with coverage     |
-| `npm run test:watch`  | Run tests in watch mode          |
-| `npm run test:e2e`    | Run Playwright E2E tests         |
-| `npm run test:e2e:ui` | Run E2E tests with UI            |
-
-**Development tips:**
-
-- Hot reload works for all components
-- API routes require server restart for changes
-- Check `lib/assistant-context.ts` to customize AI personality
-- Edit `lib/portfolio-data.ts` to update your info
+- ⚡ Hot reload on file changes
+- 🎯 TypeScript type checking
+- 🎨 Tailwind CSS IntelliSense
+- 🧪 Run tests: `npm test`
+- 📊 Code coverage: `npm run test:coverage`
 
 </details>
 
 <details>
-<summary><b>🚀 Deployment</b></summary>
+<summary><b>🏗️ Production Build</b></summary>
 
 <br/>
 
-### Deploy to Vercel (Recommended)
+**Build for production:**
 
-**Option 1: One-click deploy**
+```bash
+npm run build
+```
+
+**Test production build locally:**
+
+```bash
+npm run start
+```
+
+**Analyze bundle size:**
+
+```bash
+npm run analyze
+```
+
+**Production optimizations included:**
+
+- ✅ Automatic code splitting
+- ✅ Image optimization (WebP)
+- ✅ Font optimization
+- ✅ Minification & compression
+- ✅ Tree shaking
+- ✅ Dynamic imports for 3D components
+
+**Expected build output:**
+
+```
+Route (app)                              Size     First Load JS
+├ ○ /                                    156 kB    244 kB
+├ ƒ /api/chat                            0 B       0 B (Edge)
+├ ƒ /api/transcribe                      0 B       0 B (Edge)
+└ ƒ /api/tts                             0 B       0 B (Edge)
+
+First Load JS shared by all             87.4 kB
+```
+
+</details>
+
+<details>
+<summary><b>☁️ Deploy to Vercel</b></summary>
+
+<br/>
+
+### One-Click Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Zacsluss/portfolio_zarvis)
 
-This will:
+### Manual Deployment
 
-1. Clone the repo to your GitHub
-2. Create a new Vercel project
-3. Prompt for environment variables
-4. Deploy to production!
-
-**Option 2: Manual deployment**
+**Step 1: Install Vercel CLI**
 
 ```bash
-# Install Vercel CLI
 npm i -g vercel
+```
 
-# Link your project
+**Step 2: Link your project**
+
+```bash
 vercel link
+```
 
-# Add environment variables
+**Step 3: Add environment variables**
+
+```bash
 vercel env add OPENAI_API_KEY
+vercel env add KV_REST_API_URL
+vercel env add KV_REST_API_TOKEN
+vercel env add SENTRY_DSN
+```
 
-# Deploy to production
+**Step 4: Deploy**
+
+```bash
 vercel --prod
 ```
 
-### Environment Variables (Production)
+### Vercel KV Setup (Redis Caching)
 
-Set these in your Vercel dashboard:
+1. Go to [Vercel Dashboard](https://vercel.com/dashboard)
+2. Select your project → **Storage** tab
+3. Click **Create Database** → **KV (Redis)**
+4. Copy the `KV_REST_API_URL` and `KV_REST_API_TOKEN`
+5. Add to Vercel environment variables
 
-- `OPENAI_API_KEY` (required)
-- `KV_REST_API_URL` (optional, auto-added by Vercel)
-- `KV_REST_API_TOKEN` (optional, auto-added by Vercel)
-- `SENTRY_DSN` (optional)
+**Cache benefits:**
 
-### Build Verification
-
-After deployment, verify:
-
-- ✅ AI chat works (try asking a question)
-- ✅ Voice input works (click mic icon)
-- ✅ No console errors
-- ✅ Rate limiting working (spam requests)
-- ✅ Caching working (repeat same question)
+- 🚀 30-50% cost savings on repeated queries
+- ⚡ <10ms cache hit latency
+- 🌍 Distributed across edge locations
 
 </details>
 
 <details>
-<summary><b>🎨 Customization for Your Portfolio</b></summary>
+<summary><b>🎨 Customize for Yourself</b></summary>
 
 <br/>
 
-**Make it yours in 5 minutes:**
+### Make it Your Own Portfolio
 
-### 1. Update Your Info
+**Step 1: Update personal data**
 
 Edit `lib/portfolio-data.ts`:
 
@@ -559,72 +629,56 @@ export const portfolioData: PortfolioData = {
   personal: {
     name: 'Your Name',
     title: 'Your Title',
+    tagline: 'Your tagline...',
+    bio: 'Your bio...',
+    location: 'Your Location',
     email: 'your@email.com',
-    // ... rest of your info
   },
-  experience: [
-    {
-      company: 'Your Company',
-      position: 'Your Role',
-      // ... your experience
-    },
-  ],
-  // ... skills, projects, etc.
+  social: {
+    github: 'https://github.com/yourusername',
+    linkedin: 'https://linkedin.com/in/yourusername',
+  },
+  // ... add your experience, projects, skills
 };
 ```
 
-### 2. Customize AI Personality
+**Step 2: Replace images**
 
-Edit `lib/assistant-context.ts`:
+- `public/headshot.jpeg` — Your profile photo
+- `public/profileai.gif` — AI assistant demo
+- `public/resume.pdf` — Your resume
+
+**Step 3: Customize AI personality**
+
+Edit `app/api/chat/route.ts`:
 
 ```typescript
-export function generateSystemPrompt(): string {
-  return `You are an AI assistant for ${personal.name}'s portfolio...
+const systemMessage = {
+  role: 'system',
+  content: `You are an AI assistant for [YOUR NAME]'s portfolio...`,
+};
+```
 
-  **Your Personality**:
-  - [Describe how you want the AI to respond]
-  - [Add personality quirks]
-  - [Set tone and style]
-  `;
+**Step 4: Update styling**
+
+Edit `tailwind.config.js` for custom colors:
+
+```javascript
+theme: {
+  extend: {
+    colors: {
+      'accent-400': '#your-color',
+      'accent-600': '#your-color',
+    }
+  }
 }
 ```
 
-### 3. Update Theme Colors
+**Step 5: Modify sections**
 
-Edit `tailwind.config.js`:
-
-```javascript
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        accent: {
-          400: '#your-color', // Main accent
-          500: '#your-color', // Hover state
-        },
-      },
-    },
-  },
-};
-```
-
-### 4. Update SEO & Meta Tags
-
-Edit `app/layout.tsx`:
-
-```typescript
-export const metadata: Metadata = {
-  title: 'Your Name - Portfolio',
-  description: 'Your description here',
-  // ... other meta tags
-};
-```
-
-### 5. Replace Resume & Assets
-
-- Replace `public/resume.pdf` with your resume
-- Replace `public/headshot.jpeg` with your photo
-- Replace `public/profileai.gif` with your demo GIF
+- Add/remove sections in `app/page.tsx`
+- Create new section components in `components/sections/`
+- Update navigation in `components/navigation/Navigation.tsx`
 
 </details>
 
@@ -638,196 +692,118 @@ export const metadata: Metadata = {
 <br/>
 
 <details>
-<summary><b>🎨 UI Components & State Management</b></summary>
+<summary><b>🤖 AI Assistant Implementation</b></summary>
 
 <br/>
 
-### Component Architecture
+### Architecture Overview
 
-The app uses a modular component structure:
+The AI assistant is built on three core API routes:
 
-```
-components/
-├── AIAssistant/
-│   ├── Assistant.tsx           # Main assistant wrapper
-│   ├── ChatInterface.tsx       # Chat UI and message handling
-│   ├── VoiceInterface.tsx      # Voice input button & recording
-│   └── MessageList.tsx         # Message rendering & streaming
-├── sections/
-│   ├── Hero.tsx                # Landing section with 3D effects
-│   ├── About.tsx               # Bio and quick facts
-│   ├── Skills.tsx              # Tech stack grid
-│   ├── Experience.tsx          # Timeline of work history
-│   ├── Leadership.tsx          # Philosophy and metrics
-│   └── Contact.tsx             # Contact cards and social links
-├── navigation/
-│   └── Navigation.tsx          # Sticky nav with active section tracking
-├── effects/
-│   ├── GradientMesh.tsx        # Animated gradient background
-│   ├── LightBeams.tsx          # Parallax light effects
-│   └── AmbientParticles.tsx    # Floating particle system
-└── 3D/
-    └── FloatingGeometry.tsx     # Three.js geometric shapes
-```
+**1. Chat Endpoint (`/api/chat`)**
 
-### State Management with Zustand
+- Receives message array, rate limits, sanitizes input
+- Checks SHA256-keyed cache for identical conversation
+- On cache miss: streams from GPT-4o using Server-Sent Events
+- Caches response with 1hr TTL for cost optimization
 
-**Store structure** (`lib/store.ts`):
+**2. Transcription Endpoint (`/api/transcribe`)**
+
+- Accepts audio blob (25MB max, WebM/MP4/WAV/OGG)
+- Forwards to Whisper API for speech-to-text
+- Returns transcription with <1s latency
+
+**3. Text-to-Speech Endpoint (`/api/tts`)**
+
+- Converts text responses to speech using OpenAI TTS
+- Returns audio stream for voice playback
+
+### Streaming Implementation
 
 ```typescript
-interface AssistantStore {
-  // UI state
-  isOpen: boolean;
-  mode: 'chat' | 'game';
+// Simplified streaming logic
+const stream = new ReadableStream({
+  async start(controller) {
+    for await (const chunk of openaiStream) {
+      controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
+    }
+    controller.close();
+  },
+});
 
-  // Chat state
-  messages: Message[];
-  isLoading: boolean;
-  error: string | null;
-
-  // Actions
-  addMessage: (role, content) => void;
-  setMode: (mode) => void;
-  setIsOpen: (isOpen) => void;
-  clearMessages: () => void;
-}
+return new Response(stream, {
+  headers: {
+    'Content-Type': 'text/event-stream',
+    'Cache-Control': 'no-cache',
+    Connection: 'keep-alive',
+  },
+});
 ```
 
-**Why Zustand?**
+### Context Management
 
-- 🚀 **Lightweight**: 1KB gzipped vs 3KB for Redux Toolkit
-- 🎯 **Simple API**: No providers, no boilerplate
-- 📦 **TypeScript-first**: Excellent type inference
-- ⚡ **Fast**: Direct state access without Context re-renders
+The AI assistant has access to:
 
-### Animation System
-
-**Framer Motion patterns:**
-
-```typescript
-// Scroll-triggered animations
-const { ref, isInView } = useInView({ once: true, margin: '-100px' });
-
-<motion.div
-  initial={{ opacity: 0, y: 50 }}
-  animate={isInView ? { opacity: 1, y: 0 } : {}}
-  transition={{ duration: 0.6 }}
->
-```
-
-**Mouse parallax custom hook:**
-
-```typescript
-// Custom hook for smooth parallax
-export function useMouseParallax(intensity = 10) {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
-
-  useEffect(() => {
-    const handleMouse = (e: MouseEvent) => {
-      const x = (e.clientX / window.innerWidth - 0.5) * intensity;
-      const y = (e.clientY / window.innerHeight - 0.5) * intensity;
-      setPosition({ x, y });
-    };
-    window.addEventListener('mousemove', handleMouse);
-    return () => window.removeEventListener('mousemove', handleMouse);
-  }, [intensity]);
-
-  return position;
-}
-```
-
-</details>
-
-<details>
-<summary><b>🤖 AI Assistant Architecture</b></summary>
-
-<br/>
-
-### Streaming Response Flow
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Client
-    participant API
-    participant Cache
-    participant OpenAI
-
-    User->>Client: Send message
-    Client->>API: POST /api/chat
-    API->>API: Rate limit check
-    API->>API: Sanitize input
-    API->>Cache: Check cache
-    alt Cache Hit
-        Cache-->>API: Return cached
-        API-->>Client: Stream cached response
-    else Cache Miss
-        API->>OpenAI: Stream request
-        OpenAI-->>API: Stream tokens
-        API-->>Client: Forward stream
-        API->>Cache: Store response
-    end
-    Client->>User: Display message
-```
-
-### AI Context Management
+- ✅ Full portfolio data (experience, skills, projects)
+- ✅ Resume content and achievements
+- ✅ Technical background and certifications
+- ✅ Conversation history (last 50 messages)
 
 **System prompt structure:**
 
-1. **Personality & Tone** - ZARVIS character definition
-2. **Professional Background** - Complete work history, skills, projects
-3. **Response Guidelines** - How to answer different types of questions
-4. **Mode Switching** - Professional vs D&D Dungeon Master modes
+```
+You are an AI assistant for Zachary Sluss's portfolio.
 
-**Context injection:**
+BACKGROUND:
+- Principal CRM & Enterprise Platforms Solutions Architect
+- 8+ years Salesforce and enterprise platform experience
+- [Full resume context...]
 
-```typescript
-// Generate system prompt with real data
-const systemPrompt = generateSystemPrompt();
+PERSONALITY:
+- Professional but approachable
+- Technical depth when asked
+- Concise responses (2-3 sentences default)
 
-const messages: ChatCompletionMessageParam[] = [
-  { role: 'system', content: systemPrompt },
-  ...conversationHistory,
-  { role: 'user', content: userMessage },
-];
+CAPABILITIES:
+- Answer questions about experience and projects
+- Explain technical decisions and architecture
+- Discuss skills and certifications
 ```
 
-### Caching Strategy
+### Rate Limiting Strategy
 
-**SHA256-based cache keys:**
+**Implementation:**
 
-```typescript
-// Hash conversation for cache key
-const cacheKey = createHash('sha256')
-  .update(JSON.stringify(messages))
-  .digest('hex')
-  .substring(0, 16);
-```
+- 10 requests per minute per IP address
+- Uses Vercel KV (Redis) for distributed rate limit tracking
+- Graceful error messages when limit exceeded
 
-**Two-tier caching:**
+**Why this approach:**
 
-1. **In-memory cache** (Node.js runtime)
-   - Fast: <1ms lookup
-   - Ephemeral: Lost on server restart
-   - No external dependency
+- Prevents API abuse and cost overruns
+- Per-IP tracking works for most use cases
+- Transparent to legitimate users
 
-2. **Vercel KV** (Redis)
-   - Persistent: Survives deployments
-   - Distributed: Shared across edge functions
-   - Sub-10ms latency
+**Trade-offs:**
 
-**Cache hit rates:**
-
-- ~35% in production
-- ~50% for common questions
-- Saves $0.005 per cached response
+- Corporate networks share IPs (can hit limits faster)
+- VPN users may share rate limits
+- Doesn't distinguish authenticated users
 
 </details>
 
 <details>
-<summary><b>⚡ Performance Optimization</b></summary>
+<summary><b>⚡ Performance Benchmarks</b></summary>
 
 <br/>
+
+### Response Time Metrics
+
+| Metric                  | Cold Start | Warm Cache | Cached |
+| ----------------------- | ---------- | ---------- | ------ |
+| **TTFB**                | 450-500ms  | 300-350ms  | <10ms  |
+| **Full response**       | 2-5s       | 1.5-3s     | <100ms |
+| **Voice transcription** | 800-1200ms | N/A        | N/A    |
 
 ### Bundle Size Analysis
 
@@ -854,27 +830,48 @@ const AmbientParticles = dynamic(() => import('@/components/effects/AmbientParti
 });
 ```
 
-### Response Time Benchmarks
-
-| Metric                  | Cold Start | Warm Cache | Cached |
-| ----------------------- | ---------- | ---------- | ------ |
-| **TTFB**                | 450-500ms  | 300-350ms  | <10ms  |
-| **Full response**       | 2-5s       | 1.5-3s     | <100ms |
-| **Voice transcription** | 800-1200ms | N/A        | N/A    |
-
 ### Lighthouse Scores
 
-- **Performance**: 95/100
-- **Accessibility**: 100/100
-- **Best Practices**: 100/100
-- **SEO**: 100/100
+<div align="center">
+
+| Performance | Accessibility | Best Practices |   SEO   |
+| :---------: | :-----------: | :------------: | :-----: |
+|   **95**    |    **100**    |    **100**     | **100** |
+
+</div>
 
 **Key metrics:**
 
-- First Contentful Paint: 0.8s
-- Largest Contentful Paint: 1.2s
-- Time to Interactive: 1.5s
-- Cumulative Layout Shift: 0.001
+- **First Contentful Paint**: 0.8s
+- **Largest Contentful Paint**: 1.2s
+- **Time to Interactive**: 1.5s
+- **Cumulative Layout Shift**: 0.001
+
+<details>
+<summary><b>📦 Bundle size breakdown</b></summary>
+
+<br/>
+
+**Largest dependencies:**
+
+| Package       | Size   | Why Needed                        |
+| ------------- | ------ | --------------------------------- |
+| React         | 45 KB  | Core UI library                   |
+| Framer Motion | 45 KB  | Animations and scroll effects     |
+| Next.js       | 87 KB  | Framework runtime                 |
+| Zustand       | 1 KB   | State management                  |
+| Lucide React  | ~15 KB | Icon library (tree-shaken)        |
+| OpenAI SDK    | 0 KB   | Server-only, not in client bundle |
+
+**Optimization strategies:**
+
+- ✅ Tree shaking for unused exports
+- ✅ Dynamic imports for 3D components
+- ✅ Image optimization (WebP, lazy loading)
+- ✅ Font subsetting (only characters used)
+- ✅ Code splitting per route
+
+</details>
 
 </details>
 
@@ -885,12 +882,13 @@ const AmbientParticles = dynamic(() => import('@/components/effects/AmbientParti
 
 ### Test Coverage
 
-**Current coverage stats:**
+**Current stats:**
 
 ```
 Test Suites: 8 passed, 8 total
 Tests:       88 passed, 88 total
 Time:        2.265s
+Coverage:    38% (statements)
 ```
 
 **Coverage by category:**
@@ -902,85 +900,272 @@ Time:        2.265s
 | **State Management** | 100%     | Zustand store                  |
 | **Components**       | ~50%     | ChatInterface, ErrorBoundary   |
 | **Config & Utils**   | 100%     | Config, Logger                 |
-| **Overall**          | 38%      | All files                      |
 
 ### Test Structure
 
-**Unit tests (Jest):**
+**Unit tests (`__tests__/`):**
 
-```typescript
-// Example: CacheService.test.ts
-describe('CacheService', () => {
-  it('should cache and retrieve responses', async () => {
-    const service = CacheService.getInstance();
-    await service.set('key', 'value', 3600);
-    const cached = await service.get('key');
-    expect(cached).toBe('value');
-  });
-
-  it('should handle cache misses gracefully', async () => {
-    const service = CacheService.getInstance();
-    const result = await service.get('nonexistent');
-    expect(result).toBeNull();
-  });
-});
+```
+__tests__/
+├── lib/
+│   ├── services/CacheService.test.ts
+│   ├── services/RateLimitService.test.ts
+│   └── store.test.ts
+├── components/
+│   ├── ErrorBoundary.test.tsx
+│   └── AIAssistant/ChatInterface.test.tsx
+└── lib/errors.test.ts
 ```
 
-**E2E tests (Playwright):**
+**E2E tests (`e2e/`):**
 
-```typescript
-// Example: chat.spec.ts
-test('AI chat responds to user messages', async ({ page }) => {
-  await page.goto('/');
-  await page.click('[aria-label="Open AI Assistant"]');
-  await page.fill('[placeholder="Ask me anything"]', 'Tell me about your experience');
-  await page.click('button:has-text("Send")');
-  await expect(page.locator('.message-assistant')).toBeVisible();
-});
 ```
-
-### Code Quality Tools
-
-**ESLint configuration:**
-
-- `eslint-config-next` (Next.js best practices)
-- TypeScript strict rules
-- React Hooks rules
-
-**Prettier configuration:**
-
-- `prettier-plugin-tailwindcss` (automatic class sorting)
-- 2-space indentation
-- Single quotes
-
-**Pre-commit hooks (Husky):**
-
-```json
-"lint-staged": {
-  "*.{js,jsx,ts,tsx}": [
-    "prettier --write",
-    "eslint --fix"
-  ],
-  "*.{json,md,css}": [
-    "prettier --write"
-  ]
-}
+e2e/
+├── chat.spec.ts         # AI assistant interactions
+├── voice.spec.ts        # Voice input flow
+└── navigation.spec.ts   # Section navigation
 ```
 
 ### Running Tests
 
+**Unit tests:**
+
 ```bash
-# Unit tests with coverage
-npm test
+npm test                 # Run all tests
+npm run test:watch       # Watch mode
+```
 
-# Watch mode (auto-rerun on changes)
-npm run test:watch
+**E2E tests:**
 
-# E2E tests
-npm run test:e2e
+```bash
+npm run test:e2e         # Headless mode
+npm run test:e2e:ui      # Interactive UI
+```
 
-# E2E tests with UI (visual debugging)
-npm run test:e2e:ui
+### Code Quality Tools
+
+**Prettier** — Code formatting
+
+```bash
+npm run format           # Format all files
+npm run format:check     # Check formatting
+```
+
+**ESLint** — Linting
+
+```bash
+npm run lint             # Run linter
+```
+
+**Husky + lint-staged** — Pre-commit hooks
+
+Automatically runs on `git commit`:
+
+- Prettier formatting
+- ESLint fixes
+- TypeScript type checking
+
+**TypeScript** — Type safety
+
+```bash
+npx tsc --noEmit         # Type check without building
+```
+
+</details>
+
+<details>
+<summary><b>📊 Observability & Monitoring</b></summary>
+
+<br/>
+
+### Error Tracking (Sentry)
+
+**What's monitored:**
+
+- ✅ Client-side errors and unhandled rejections
+- ✅ Server-side API route errors
+- ✅ Performance metrics (TTFB, route timing)
+- ✅ User context (breadcrumbs, state snapshots)
+
+**Setup:**
+
+```bash
+# Install Sentry
+npm install @sentry/nextjs
+
+# Initialize (already done in this project)
+npx @sentry/wizard -i nextjs
+```
+
+**Configuration:**
+
+```typescript
+// sentry.client.config.ts
+Sentry.init({
+  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
+  tracesSampleRate: 0.1, // 10% performance monitoring
+  replaysSessionSampleRate: 0.1,
+  replaysOnErrorSampleRate: 1.0,
+});
+```
+
+### Structured Logging
+
+**Logger utility (`lib/logger.ts`):**
+
+```typescript
+logger.info('User sent message', { messageLength: 42, model: 'gpt-4o' });
+logger.warn('Cache miss', { key: 'chat:abc123' });
+logger.error('API error', { error, statusCode: 500 });
+```
+
+**Output format:**
+
+```
+[INFO] User sent message { messageLength: 42, model: 'gpt-4o', timestamp: '2024-01-15T10:30:00Z' }
+```
+
+### Metrics Tracking
+
+**Key metrics tracked:**
+
+- Cache hit rate (~35% in production)
+- API response times (p50, p95, p99)
+- Error rates by endpoint
+- Rate limit violations
+- OpenAI token usage and costs
+
+</details>
+
+<details>
+<summary><b>⚙️ Advanced Configuration</b></summary>
+
+<br/>
+
+### Environment Variables
+
+**Required:**
+
+```env
+OPENAI_API_KEY=sk-...                    # OpenAI API key (required)
+```
+
+**Optional:**
+
+```env
+KV_REST_API_URL=https://...              # Vercel KV Redis URL
+KV_REST_API_TOKEN=...                    # Vercel KV auth token
+SENTRY_DSN=https://...                   # Sentry error tracking
+NEXT_PUBLIC_SENTRY_DSN=https://...       # Sentry (client-side)
+RATE_LIMIT_MAX_REQUESTS=10               # Rate limit threshold
+RATE_LIMIT_WINDOW_MS=60000               # Rate limit window
+MAX_INPUT_LENGTH=2000                    # Max message length
+NEXT_PUBLIC_MAX_MESSAGE_HISTORY=50       # Max chat history
+```
+
+### API Configuration
+
+**Rate limiting:**
+
+```typescript
+// lib/config.ts
+export const API_CONFIG = {
+  RATE_LIMIT: {
+    MAX_REQUESTS: 10, // requests per window
+    WINDOW_MS: 60000, // 1 minute
+  },
+};
+```
+
+**Input validation:**
+
+```typescript
+INPUT: {
+  MAX_LENGTH: 2000,        // Max characters per message
+  MAX_MESSAGES: 50,        // Max message history
+  MIN_MESSAGES: 1,
+}
+```
+
+**File uploads:**
+
+```typescript
+UPLOAD: {
+  MAX_AUDIO_SIZE: 25 * 1024 * 1024,  // 25MB
+  ALLOWED_AUDIO_TYPES: ['audio/webm', 'audio/mp4', 'audio/mpeg', 'audio/wav', 'audio/ogg'],
+}
+```
+
+### AI Personality Tuning
+
+**Adjust response style** in `app/api/chat/route.ts`:
+
+```typescript
+const systemMessage = {
+  role: 'system',
+  content: `
+    PERSONALITY:
+    - Professional but approachable
+    - Technical depth when asked
+    - Concise responses (2-3 sentences default)
+    - Use analogies for complex topics
+
+    TONE:
+    - Confident but humble
+    - Enthusiastic about technology
+    - Direct and honest
+  `,
+};
+```
+
+**Model selection:**
+
+```typescript
+const stream = await openai.chat.completions.create({
+  model: 'gpt-4o', // or 'gpt-4o-mini' for lower cost
+  temperature: 0.7, // 0.0 = deterministic, 1.0 = creative
+  max_tokens: 500, // Limit response length
+  stream: true,
+});
+```
+
+### Styling Customization
+
+**Color scheme** (`tailwind.config.js`):
+
+```javascript
+theme: {
+  extend: {
+    colors: {
+      'accent-400': '#38bdf8',  // Primary accent
+      'accent-600': '#0284c7',  // Darker accent
+      'gray-900': '#0f172a',    // Background
+    }
+  }
+}
+```
+
+**Animation timing:**
+
+```typescript
+// components/sections/Hero.tsx
+transition={{ duration: 0.8, delay: 0.2 }}
+```
+
+### Performance Tuning
+
+**Cache TTL:**
+
+```typescript
+// lib/services/CacheService.ts
+const TTL = 60 * 60; // 1 hour (3600 seconds)
+```
+
+**Streaming chunk size:**
+
+```typescript
+// Adjust for slower/faster streaming
+controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 ```
 
 </details>
@@ -990,336 +1175,152 @@ npm run test:e2e:ui
 
 <br/>
 
-### Common Issues & Solutions
+<details>
+<summary><b>❌ Issue: "OpenAI API key is required"</b></summary>
 
-#### 🚨 "OpenAI API key is required"
+<br/>
 
-**Problem:** Missing or invalid `OPENAI_API_KEY` in environment variables.
+**Symptoms:**
 
-**Solution:**
+- 500 error on chat requests
+- Error message: "OpenAI API key is required"
 
-1. Check `.env.local` exists and has the key
-2. Verify key starts with `sk-`
-3. Restart dev server after adding key
-4. In production, add to Vercel environment variables
+**Causes:**
 
-```bash
-# Local development
-echo "OPENAI_API_KEY=sk-your-key-here" >> .env.local
-npm run dev
+- Missing `OPENAI_API_KEY` in `.env.local`
+- API key doesn't start with `sk-`
+- Environment variable not loaded
 
-# Production (Vercel)
-vercel env add OPENAI_API_KEY
-vercel --prod
-```
+**Solutions:**
 
-#### 🚨 "Rate limit exceeded"
-
-**Problem:** Too many requests to OpenAI API or hitting rate limiter.
-
-**Solution:**
-
-1. **OpenAI rate limit**: Wait 60 seconds, check [usage dashboard](https://platform.openai.com/usage)
-2. **App rate limit**: Default is 10 req/min per IP
-
-To increase limit, edit `lib/config.ts`:
-
-```typescript
-export const API_CONFIG = {
-  RATE_LIMIT: {
-    MAX_REQUESTS: 20, // Change from 10 to 20
-    WINDOW_MS: 60000, // 1 minute window
-  },
-};
-```
-
-#### 🚨 Voice input not working
-
-**Problem:** Microphone permissions or browser compatibility.
-
-**Solution:**
-
-1. **Check permissions**: Browser should prompt for mic access
-2. **HTTPS required**: Voice API only works on HTTPS (or localhost)
-3. **Browser support**: Chrome, Edge, Safari work best
-4. **Check console**: Look for MediaRecorder errors
-
-```javascript
-// Test microphone access
-navigator.mediaDevices
-  .getUserMedia({ audio: true })
-  .then(() => console.log('✅ Mic access granted'))
-  .catch(err => console.error('❌ Mic access denied:', err));
-```
-
-#### 🚨 Build fails with TypeScript errors
-
-**Problem:** Type errors or missing dependencies.
-
-**Solution:**
-
-1. **Clean install**: Delete `node_modules` and reinstall
-
-```bash
-rm -rf node_modules package-lock.json
-npm install
-```
-
-2. **Type errors**: Check TypeScript version matches `package.json`
-
-```bash
-npm list typescript
-# Should show 5.3.x
-```
-
-3. **Missing types**: Install missing `@types/*` packages
-
-```bash
-npm install --save-dev @types/node @types/react @types/react-dom
-```
-
-#### 🚨 Cache not working
-
-**Problem:** Vercel KV not connected or misconfigured.
-
-**Solution:**
-
-1. **Check KV credentials** in `.env.local`:
-
-```env
-KV_REST_API_URL=https://your-kv-instance.kv.vercel-storage.com
-KV_REST_API_TOKEN=your-token-here
-```
-
-2. **Test KV connection**:
-
-```typescript
-// Add to app/api/test-kv/route.ts
-import { kv } from '@vercel/kv';
-
-export async function GET() {
-  await kv.set('test', 'hello');
-  const value = await kv.get('test');
-  return Response.json({ value });
-}
-```
-
-3. **Fallback to in-memory**: Cache still works without KV (per-instance only)
-
-#### 🚨 Streaming responses stuck
-
-**Problem:** SSE connection hanging or timeout.
-
-**Solution:**
-
-1. **Check OpenAI status**: [status.openai.com](https://status.openai.com)
-2. **Increase timeout** in `app/api/chat/route.ts`:
-
-```typescript
-export const maxDuration = 60; // seconds (default: 10)
-```
-
-3. **Test with curl**:
-
-```bash
-curl -N -X POST http://localhost:3000/api/chat \
-  -H "Content-Type: application/json" \
-  -d '{"messages":[{"role":"user","content":"hello"}]}'
-```
+1. Verify `.env.local` exists and contains:
+   ```env
+   OPENAI_API_KEY=sk-your-actual-key-here
+   ```
+2. Restart dev server (`npm run dev`)
+3. Check key starts with `sk-`
+4. Verify key is active on [OpenAI dashboard](https://platform.openai.com/api-keys)
 
 </details>
 
 <details>
-<summary><b>⚙️ Advanced Configuration</b></summary>
+<summary><b>❌ Issue: Rate limit exceeded</b></summary>
 
 <br/>
 
-### API Configuration
+**Symptoms:**
 
-Edit `lib/config.ts` to customize behavior:
+- Error: "Rate limit exceeded. Please try again later."
+- Happens after 10 requests in 1 minute
 
-```typescript
-export const API_CONFIG = {
-  // Rate limiting
-  RATE_LIMIT: {
-    MAX_REQUESTS: 10, // Requests per window
-    WINDOW_MS: 60000, // 1 minute window
-    ENABLED: true, // Toggle rate limiting
-  },
+**Causes:**
 
-  // Caching
-  CACHE: {
-    ENABLED: true,
-    TTL: 3600, // 1 hour in seconds
-    KEY_PREFIX: 'chat:',
-    USE_VERCEL_KV: true, // Fallback to in-memory if false
-  },
+- IP-based rate limiting (10 req/min default)
+- Multiple users behind same IP (corporate network)
 
-  // Input validation
-  INPUT: {
-    MAX_LENGTH: 5000, // Characters
-    MIN_LENGTH: 1,
-    SANITIZE: true,
-  },
+**Solutions:**
 
-  // OpenAI
-  OPENAI: {
-    MODEL: 'gpt-4o',
-    MAX_TOKENS: 1000,
-    TEMPERATURE: 0.7,
-    STREAM: true,
-  },
-};
-```
+1. **Wait 1 minute** before trying again
+2. **Increase rate limit** in `.env.local`:
+   ```env
+   RATE_LIMIT_MAX_REQUESTS=20
+   RATE_LIMIT_WINDOW_MS=60000
+   ```
+3. **Deploy with Vercel KV** for distributed rate limiting
+4. **Implement auth** to track per-user instead of per-IP
 
-### AI Personality Customization
+</details>
 
-**Modify `lib/assistant-context.ts` to change AI behavior:**
+<details>
+<summary><b>❌ Issue: Voice input not working on iOS Safari</b></summary>
 
-```typescript
-// Add custom modes
-export const assistantConfig = {
-  modes: {
-    professional: {
-      temperature: 0.7,
-      maxTokens: 1000,
-      systemPromptSuffix: 'Be professional and concise.',
-    },
-    creative: {
-      temperature: 0.9,
-      maxTokens: 1500,
-      systemPromptSuffix: 'Be creative and fun!',
-    },
-    game: {
-      temperature: 0.8,
-      maxTokens: 1200,
-      systemPromptSuffix: 'You are a D&D Dungeon Master.',
-    },
-  },
-};
-```
+<br/>
 
-**Add custom knowledge:**
+**Symptoms:**
 
-```typescript
-export function generateSystemPrompt(): string {
-  return `You are an AI assistant...
+- Voice button doesn't respond
+- No audio recording on iOS Safari
 
-  ## Additional Knowledge
+**Causes:**
 
-  **Recent Projects:**
-  - Project X: [description]
-  - Project Y: [description]
+- iOS Safari doesn't support Web Audio API for getUserMedia
+- Known browser limitation
 
-  **Skills:**
-  - [Your custom skills]
+**Solutions:**
 
-  **Interests:**
-  - [Your interests]
-  `;
-}
-```
+1. **Use Chrome/Firefox on iOS** (if available)
+2. **Use text input** instead of voice
+3. **Future fix**: Implement native iOS app with React Native
 
-### Styling Customization
+**Known issue:** This is a browser limitation, not a bug in the code.
 
-**Tailwind theme** (`tailwind.config.js`):
+</details>
 
-```javascript
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        accent: {
-          400: '#38bdf8', // Main accent (cyan-400)
-          500: '#0ea5e9', // Hover state (cyan-500)
-        },
-        matrix: {
-          400: '#4ade80', // Matrix green
-          500: '#22c55e',
-        },
-      },
-      fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        mono: ['Fira Code', 'monospace'],
-      },
-      animation: {
-        gradient: 'gradient 8s linear infinite',
-        float: 'float 6s ease-in-out infinite',
-      },
-    },
-  },
-};
-```
+<details>
+<summary><b>❌ Issue: Streaming occasionally stalls</b></summary>
 
-### Performance Tuning
+<br/>
 
-**Next.js optimization** (`next.config.js`):
+**Symptoms:**
 
-```javascript
-module.exports = {
-  // Experimental features
-  experimental: {
-    serverActions: true,
-    optimizePackageImports: ['lucide-react', 'framer-motion'],
-  },
+- Response stops mid-stream
+- Spinner keeps loading but no text appears
 
-  // Image optimization
-  images: {
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200],
-  },
+**Causes:**
 
-  // Bundle analysis
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.optimization.splitChunks = {
-        chunks: 'all',
-        cacheGroups: {
-          vendor: {
-            test: /[\\/]node_modules[\\/]/,
-            priority: 10,
-          },
-        },
-      };
-    }
-    return config;
-  },
-};
-```
+- Slow/unstable network connection
+- OpenAI API timeout
+- Edge function timeout
 
-### Monitoring & Analytics
+**Solutions:**
 
-**Sentry configuration** (`.sentryrc.js`):
+1. **Refresh page** and try again
+2. **Check network connection** (try speedtest)
+3. **Reduce message length** for faster responses
+4. **Check OpenAI status**: https://status.openai.com/
 
-```javascript
-module.exports = {
-  org: 'your-org',
-  project: 'portfolio',
+</details>
 
-  silent: true,
-  widenClientFileUpload: true,
-  hideSourceMaps: true,
-  disableLogger: true,
-};
-```
+<details>
+<summary><b>❌ Issue: Build fails with TypeScript errors</b></summary>
 
-**Vercel Analytics** (already integrated):
+<br/>
 
-```typescript
-// app/layout.tsx
-import { Analytics } from '@vercel/analytics/react';
+**Symptoms:**
 
-export default function RootLayout({ children }) {
-  return (
-    <html>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
-```
+- `npm run build` fails
+- Type errors in console
+
+**Causes:**
+
+- Missing type definitions
+- TypeScript version mismatch
+- Incorrect imports
+
+**Solutions:**
+
+1. **Clear cache and reinstall:**
+   ```bash
+   rm -rf node_modules .next
+   npm install
+   npm run build
+   ```
+2. **Check TypeScript version:**
+   ```bash
+   npx tsc --version  # Should be 5.3+
+   ```
+3. **Fix type errors** shown in console
+4. **Disable strict mode** temporarily (not recommended):
+   ```json
+   // tsconfig.json
+   {
+     "compilerOptions": {
+       "strict": false
+     }
+   }
+   ```
+
+</details>
 
 </details>
 
@@ -1332,172 +1333,111 @@ export default function RootLayout({ children }) {
 
 <br/>
 
+### License
+
+<div align="center">
+
+![License](https://img.shields.io/github/license/Zacsluss/portfolio_zarvis?style=for-the-badge)
+
+</div>
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**TLDR**: You can use, modify, and distribute this code freely, even commercially, as long as you include the original license.
+
+### Contributing
+
+Contributions are welcome! Whether it's bug fixes, new features, or documentation improvements.
+
 <details>
-<summary><b>📋 License Information</b></summary>
+<summary><b>🐛 Report a Bug</b></summary>
 
 <br/>
 
-**MIT License** — Fork it, customize it, make it yours. No attribution required (but a ⭐ is appreciated!).
+**Before submitting:**
 
-### Quick Summary
+1. Search existing [issues](https://github.com/Zacsluss/portfolio_zarvis/issues)
+2. Try the latest version
+3. Gather reproduction steps
 
-✅ **You CAN:**
+**Submit via:**
 
-- Use for personal or commercial projects
-- Modify and distribute
-- Use privately
-- Sublicense
+- [GitHub Issues](https://github.com/Zacsluss/portfolio_zarvis/issues/new)
 
-❌ **You CANNOT:**
+**Include:**
 
-- Hold me liable for any issues
-- Claim you wrote the original code
-
-### Full License
-
-```
-MIT License
-
-Copyright (c) 2024 Zachary Sluss
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-</details>
-
-<details>
-<summary><b>🤝 Contributing Guidelines</b></summary>
-
-<br/>
-
-Contributions are welcome! Here's how to get started:
-
-### Reporting Issues
-
-Found a bug? [Open an issue](https://github.com/Zacsluss/portfolio_zarvis/issues) with:
-
-- Clear title and description
+- Clear description of the problem
 - Steps to reproduce
 - Expected vs actual behavior
-- Screenshots if applicable
-- Environment (OS, browser, Node version)
-
-### Submitting Pull Requests
-
-1. **Fork the repo** and create a branch from `main`
-2. **Make your changes** with clear, descriptive commits
-3. **Add tests** if adding features
-4. **Run tests**: `npm test` and `npm run test:e2e`
-5. **Format code**: `npm run format`
-6. **Submit PR** with detailed description
-
-### Development Workflow
-
-```bash
-# 1. Fork and clone
-git clone https://github.com/YOUR_USERNAME/portfolio_zarvis.git
-cd portfolio_zarvis
-
-# 2. Create feature branch
-git checkout -b feature/amazing-feature
-
-# 3. Install dependencies
-npm install
-
-# 4. Make changes and test
-npm run dev
-npm test
-npm run lint
-
-# 5. Commit with conventional commits
-git commit -m "feat: add amazing feature"
-
-# 6. Push and create PR
-git push origin feature/amazing-feature
-```
-
-### Code Style
-
-- TypeScript strict mode
-- ESLint + Prettier enforced via pre-commit hooks
-- Meaningful variable names
-- JSDoc comments for functions
-- Tailwind CSS for styling (no inline styles)
-
-### Areas for Contribution
-
-- 🐛 Bug fixes
-- ✨ New features (AI modes, voice languages, etc.)
-- 📝 Documentation improvements
-- 🧪 Test coverage increases
-- ♿ Accessibility improvements
-- 🌍 Internationalization
+- Screenshots/error logs
+- Environment (OS, Node version, browser)
 
 </details>
 
 <details>
-<summary><b>📊 Project Stats & Roadmap</b></summary>
+<summary><b>✨ Suggest a Feature</b></summary>
 
 <br/>
 
-### Current Project Stats
+**Feature requests welcome!**
 
-- **Lines of Code**: ~8,500
-- **Components**: 25+
-- **API Routes**: 3
-- **Test Cases**: 88
-- **Test Coverage**: 38%
-- **Bundle Size**: 244 KB
-- **Build Time**: ~30s
-- **Dependencies**: 11 prod, 25 dev
+Open a [GitHub Discussion](https://github.com/Zacsluss/portfolio_zarvis/discussions) or [Issue](https://github.com/Zacsluss/portfolio_zarvis/issues/new) with:
 
-### Roadmap
-
-**v1.1 (Q1 2025)**
-
-- [ ] Multi-language support (Spanish, French)
-- [ ] Dark/light mode toggle
-- [ ] Additional AI personality modes
-- [ ] Voice output (TTS for AI responses)
-- [ ] Conversation export (PDF/Markdown)
-
-**v1.2 (Q2 2025)**
-
-- [ ] Image generation integration (DALL-E)
-- [ ] Code highlighting in AI responses
-- [ ] Markdown rendering in chat
-- [ ] Mobile app (React Native)
-
-**v2.0 (TBD)**
-
-- [ ] Multi-user support
-- [ ] Conversation history persistence
-- [ ] AI fine-tuning on custom data
-- [ ] WebRTC video calls with avatar
-
-### Known Issues
-
-- [ ] Voice input doesn't work on iOS Safari (Web Audio API limitation)
-- [ ] Streaming occasionally stalls on slow connections
-- [ ] Rate limiter doesn't distinguish between users behind same IP (corporate networks)
+- Clear description of the feature
+- Use case / problem it solves
+- Proposed implementation (optional)
+- Examples from other projects (optional)
 
 </details>
+
+<details>
+<summary><b>🔧 Submit a Pull Request</b></summary>
+
+<br/>
+
+**Workflow:**
+
+1. **Fork** the repository
+2. **Clone** your fork:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/portfolio_zarvis.git
+   ```
+3. **Create a branch:**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+4. **Make changes** and test:
+   ```bash
+   npm test
+   npm run build
+   ```
+5. **Commit** with clear message:
+   ```bash
+   git commit -m "Add: Voice input fallback for iOS Safari"
+   ```
+6. **Push** to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+7. **Open a PR** on GitHub
+
+**Code style:**
+
+- Run `npm run format` before committing
+- Follow existing patterns
+- Add tests for new features
+- Update documentation
+
+</details>
+
+### Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
+
+**Recent updates:**
+
+- **v1.0.0** (2024-01-15) - Initial release with GPT-4o and Whisper integration
+- **v1.0.1** (2024-01-20) - Added Sentry error tracking and improved caching
 
 </details>
 
@@ -1505,11 +1445,16 @@ git push origin feature/amazing-feature
 
 ## 📬 About & Connect
 
-By day, I'm a Lead CRM Systems Analyst managing enterprise Salesforce platforms across 22 countries. By night, I build projects like this — experimenting with AI, conversational interfaces, and creative tech.
+<details open>
+<summary><b>Let's Connect</b></summary>
 
-I'm passionate about conversational AI, serverless architecture, enterprise integrations, and building polished user experiences. Always learning, always shipping.
+<br/>
 
-**Let's connect:**
+By day, I'm a **Principal CRM & Enterprise Platforms Solutions Architect** managing enterprise Salesforce platforms across 20+ countries. By night, I build projects like this — experimenting with AI, conversational interfaces, and creative tech.
+
+**What I'm into:** Conversational AI, serverless architecture, enterprise integrations, building polished user experiences, drone photography, digital art, and music production.
+
+I'm always learning, always shipping. If you're working on something interesting or want to chat about tech, AI, or architecture — reach out!
 
 <div align="center">
 
@@ -1519,7 +1464,7 @@ I'm passionate about conversational AI, serverless architecture, enterprise inte
 <a href="https://github.com/Zacsluss">
   <img src="https://img.shields.io/badge/GitHub-@Zacsluss-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<a href="https://linkedin.com/in/zacharylsluss">
+<a href="https://linkedin.com/in/zacharyjsluss">
   <img src="https://img.shields.io/badge/LinkedIn-Zachary_Sluss-064789?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="mailto:zacharyjsluss@gmail.com">
@@ -1534,6 +1479,8 @@ I'm passionate about conversational AI, serverless architecture, enterprise inte
 **Found this helpful?** Give it a ⭐ to show support!
 
 </div>
+
+</details>
 
 ---
 
