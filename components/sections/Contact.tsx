@@ -23,7 +23,7 @@ export function Contact() {
     <section
       id="contact"
       ref={ref}
-      className="flex items-center px-[1.15rem] py-[2.875rem] sm:px-[1.725rem] lg:px-[2.3rem]"
+      className="flex items-center px-[1.15rem] py-[1.725rem] sm:px-[1.725rem] lg:px-[2.3rem]"
     >
       <div className="mx-auto w-full max-w-5xl">
         <motion.div
@@ -32,7 +32,7 @@ export function Contact() {
           transition={{ duration: 0.6 }}
         >
           {/* Section Header */}
-          <div className="mb-[3.45rem] text-center">
+          <div className="mb-[2.3rem] text-center">
             <h2 className="quantum-heading mb-[1.15rem] text-4xl font-bold text-white">
               Get In Touch
             </h2>
@@ -43,7 +43,7 @@ export function Contact() {
           </div>
 
           {/* Contact Cards - Responsive Grid: Mobile(1col) Tablet(2col) Desktop(3col) */}
-          <div className="mb-[3.45rem] grid grid-cols-1 gap-[1.725rem] sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mb-[2.3rem] grid grid-cols-1 gap-[1.725rem] sm:grid-cols-2 lg:grid-cols-3">
             {/* Email */}
             <motion.a
               href={`mailto:${personal.email}`}
