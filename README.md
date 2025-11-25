@@ -707,6 +707,38 @@ theme: {
 <br/>
 
 <details>
+<summary><b>🔒 Security & Performance Features</b></summary>
+
+<br/>
+
+### Security Measures
+
+- ✅ **Server-side API key protection**: OpenAI key never exposed to client
+- ✅ **Rate limiting**: 10 requests/min per IP via Vercel KV
+- ✅ **Input sanitization**: Remove null bytes, control characters, XSS prevention
+- ✅ **Content Security Policy**: Strict CSP headers via Next.js config
+- ✅ **Environment variable validation**: Fail fast on missing required vars
+- ✅ **Error message sanitization**: No stack traces or sensitive data to client
+
+### Performance Optimizations
+
+- ✅ **Streaming responses**: <500ms TTFB via OpenAI streaming API
+- ✅ **Response caching**: SHA256-keyed cache with 1hr TTL (30-50% cost savings)
+- ✅ **Edge runtime**: Vercel Edge Functions for global low-latency
+- ✅ **Code splitting**: Next.js 14 automatic route-based splitting
+- ✅ **Image optimization**: Next.js Image component with WebP
+- ✅ **Dynamic imports**: Lazy load 3D components and effects
+
+### Monitoring & Observability
+
+- ✅ **Sentry error tracking**: Client + server error monitoring
+- ✅ **Structured logging**: Consistent log format with context
+- ✅ **User-friendly errors**: Generic messages for users, detailed logs for devs
+- ✅ **API quota detection**: Graceful handling of OpenAI rate limits
+
+</details>
+
+<details>
 <summary><b>🤖 AI Assistant Implementation</b></summary>
 
 <br/>
