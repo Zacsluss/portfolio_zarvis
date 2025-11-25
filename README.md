@@ -44,6 +44,12 @@ I built this portfolio with a conversational AI that knows everything about my p
 
 Built with Next.js 14, TypeScript, and OpenAI API!
 
+<div align="center">
+<img src="public/profileai.gif" alt="AI Assistant Preview" width="800"/>
+<br/>
+<i>Real-time conversational AI — ask about my background, projects, or play D&D!</i>
+</div>
+
 ---
 
 ## ⚡ What This Does
