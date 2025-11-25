@@ -7,10 +7,10 @@
 <br/>
 
 <a href="https://portfoliozarvis.vercel.app/">
-  <img src="https://img.shields.io/badge/🚀_View_Live_Demo-2e7d5a?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🚀_VIEW_MY_PORTFOLIO-2e7d5a?style=for-the-badge"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/resume.pdf">
-  <img src="https://img.shields.io/badge/📄_Download_Resume-7c3aed?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_TEMPLATE-f97316?style=for-the-badge"/>
 </a>
 
 <br/><br/>
@@ -1503,14 +1503,9 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 <br/>
 
-<details open>
-<summary><b>Let's Connect</b></summary>
+By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect** at Computershare, managing multi-million-dollar Salesforce ecosystems and enterprise integrations across 20+ countries. By night, I build projects like this.
 
-<br/>
-
-By day, I'm a **Principal CRM & Enterprise Platforms Solutions Architect** managing enterprise Salesforce platforms across 20+ countries. By night, I build projects like this — experimenting with AI, conversational interfaces, and creative tech.
-
-I'm always learning, always shipping. If you're working on something interesting or want to chat about tech, AI, or architecture — reach out!
+**Always learning, always building.**
 
 <div align="center">
 
@@ -1550,9 +1545,14 @@ I'm always learning, always shipping. If you're working on something interesting
   <img src="https://img.shields.io/badge/DOWNLOAD_PDF-7c3aed?style=for-the-badge"/>
 </a>
 
-<br/><br/>
+<br/>
+<br/>
 
 **Found this helpful?** Give it a ⭐ to show support!
+
+**Want to contribute?** See [contributing guidelines](#-license--contributing) above.
+
+**Need help?** [Open an issue](https://github.com/Zacsluss/portfolio_zarvis/issues) or email me.
 
 </div>
 
