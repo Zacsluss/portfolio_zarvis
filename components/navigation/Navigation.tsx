@@ -10,6 +10,7 @@ const navItems = [
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
   { label: 'Leadership & Passions', href: '#leadership' },
+  { label: 'Beyond the Enterprise', href: '#beyond' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -55,7 +56,7 @@ export function Navigation() {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
     setIsMobileMenuOpen(false);
@@ -68,31 +69,31 @@ export function Navigation() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed left-0 right-0 top-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'glass-card glass-flash shadow-lg shadow-black/20 backdrop-blur-xl bg-white/5 border-b border-white/10'
+            ? 'glass-card glass-flash border-b border-white/10 bg-white/5 shadow-lg shadow-black/20 backdrop-blur-xl'
             : 'bg-transparent'
         }`}
         style={{ position: 'fixed' }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-center h-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-16 items-center justify-center">
             {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-1">
-              {navItems.map((item) => {
+            <div className="hidden items-center space-x-1 md:flex">
+              {navItems.map(item => {
                 const isActive = activeSection === item.href.slice(1);
                 return (
                   <motion.a
                     key={item.href}
                     href={item.href}
-                    onClick={(e) => {
+                    onClick={e => {
                       e.preventDefault();
                       scrollToSection(item.href);
                     }}
-                    className={`relative px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 cursor-pointer ${
+                    className={`relative cursor-pointer rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ${
                       isActive
                         ? 'text-accent-400'
-                        : 'text-gray-300 hover:text-white hover:bg-white/5'
+                        : 'text-gray-300 hover:bg-white/5 hover:text-white'
                     }`}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -101,7 +102,7 @@ export function Navigation() {
                     {isActive && (
                       <motion.div
                         layoutId="activeSection"
-                        className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent-400 rounded-full"
+                        className="absolute bottom-0 left-0 right-0 h-0.5 rounded-full bg-accent-400"
                         transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                       />
                     )}
@@ -115,14 +116,10 @@ export function Navigation() {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden absolute right-4 p-2 rounded-lg text-gray-300 hover:text-white hover:bg-white/10 transition-colors"
+              className="absolute right-4 rounded-lg p-2 text-gray-300 transition-colors hover:bg-white/10 hover:text-white md:hidden"
               aria-label="Toggle menu"
             >
-              {isMobileMenuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </motion.button>
           </div>
         </div>
@@ -135,23 +132,23 @@ export function Navigation() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="md:hidden overflow-hidden glass-card-hover glass-flash border-t border-white/10"
+              className="glass-card-hover glass-flash overflow-hidden border-t border-white/10 md:hidden"
             >
-              <div className="px-4 py-4 space-y-2">
-                {navItems.map((item) => {
+              <div className="space-y-2 px-4 py-4">
+                {navItems.map(item => {
                   const isActive = activeSection === item.href.slice(1);
                   return (
                     <motion.a
                       key={item.href}
                       href={item.href}
-                      onClick={(e) => {
+                      onClick={e => {
                         e.preventDefault();
                         scrollToSection(item.href);
                       }}
-                      className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all cursor-pointer ${
+                      className={`block cursor-pointer rounded-lg px-4 py-3 text-sm font-medium transition-all ${
                         isActive
-                          ? 'text-accent-400 bg-accent-400/10'
-                          : 'text-gray-300 hover:text-white hover:bg-white/5'
+                          ? 'bg-accent-400/10 text-accent-400'
+                          : 'text-gray-300 hover:bg-white/5 hover:text-white'
                       }`}
                       whileHover={{ x: 4 }}
                       whileTap={{ scale: 0.98 }}
@@ -165,7 +162,6 @@ export function Navigation() {
           )}
         </AnimatePresence>
       </motion.nav>
-
     </>
   );
 }
