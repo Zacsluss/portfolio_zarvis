@@ -96,9 +96,6 @@ export function About() {
                 />
               </div>
               <h3 className="mb-2 text-2xl font-bold text-white">{personal.name}</h3>
-              <p className="text-center text-sm uppercase tracking-wider text-gray-400">
-                Lead CRM Systems Analyst
-              </p>
             </motion.div>
 
             {/* Bio Column */}
