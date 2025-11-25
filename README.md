@@ -133,6 +133,11 @@ This is an interactive portfolio website featuring **ZARVIS** - an AI assistant 
 
 ## 🛠️ Tech Stack
 
+<details open>
+<summary><b>Core Technologies & Dependencies</b></summary>
+
+<br/>
+
 <div align="center">
 
 ### Core Technologies
@@ -308,7 +313,7 @@ graph LR
 
 </details>
 
-<details open>
+<details>
 <summary><b>🔒 Security & Performance Features</b></summary>
 
 <br/>
