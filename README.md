@@ -177,7 +177,10 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 
 </div>
 
-### Why These Choices?
+<details>
+<summary><b>Why These Choices?</b></summary>
+
+<br/>
 
 | Technology                 | Rationale                                                                | Trade-off                            |
 | -------------------------- | ------------------------------------------------------------------------ | ------------------------------------ |
@@ -188,6 +191,8 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 | **Framer Motion**          | Best-in-class animations, gesture support, layout animations             | 45KB bundle size                     |
 | **Vercel KV**              | Distributed caching, edge-compatible, sub-10ms latency                   | External dependency, Redis syntax    |
 | **Jest + Playwright**      | Unit tests (fast feedback) + E2E tests (real user flows)                 | Dual test setup complexity           |
+
+</details>
 
 <details>
 <summary><b>📦 Full dependency list</b></summary>
