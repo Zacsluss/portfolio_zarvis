@@ -118,7 +118,10 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 
 ---
 
-## 🛠️ Tech Stack
+<details open>
+<summary><b>🛠️ Tech Stack</b></summary>
+
+<br/>
 
 <details open>
 <summary><b>What Powers This Portfolio</b></summary>
@@ -232,7 +235,10 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 
 ---
 
-## 🏗️ How It Works - Architecture
+<details open>
+<summary><b>🏗️ How It Works - Architecture</b></summary>
+
+<br/>
 
 <details open>
 <summary><b>System Architecture & Data Flow</b></summary>
@@ -1488,9 +1494,14 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 </details>
 
+</details>
+
 ---
 
-## 📬 About & Connect
+<details open>
+<summary><b>📬 About & Connect</b></summary>
+
+<br/>
 
 <details open>
 <summary><b>Let's Connect</b></summary>
@@ -1546,6 +1557,8 @@ I'm always learning, always shipping. If you're working on something interesting
 **Found this helpful?** Give it a ⭐ to show support!
 
 </div>
+
+</details>
 
 </details>
 
