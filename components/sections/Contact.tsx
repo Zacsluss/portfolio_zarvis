@@ -32,11 +32,13 @@ export function Contact() {
           transition={{ duration: 0.6 }}
         >
           {/* Section Header */}
-          <div className="mb-[2.3rem] text-center">
-            <h2 className="quantum-heading mb-[1.15rem] text-4xl font-bold text-white">
-              Get In Touch
-            </h2>
-            <p className="mx-auto max-w-2xl text-lg text-gray-400">
+          <div className="mb-[3.45rem]">
+            <div className="mb-[3.45rem] flex items-center gap-[1.15rem]">
+              <Mail className="h-8 w-8 text-accent-400" />
+              <h2 className="quantum-heading text-4xl font-bold text-white">Get In Touch</h2>
+              <div className="h-[2px] flex-1 bg-gradient-to-r from-accent-400 to-transparent" />
+            </div>
+            <p className="max-w-3xl text-lg text-gray-400">
               I&apos;m always open to new opportunities and interesting projects. Feel free to reach
               out if you&apos;d like to connect!
             </p>
