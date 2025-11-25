@@ -155,7 +155,7 @@ export function Leadership() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-[3.45rem]"
+          className="mb-[3.45rem] mt-[5.75rem]"
         >
           <h3 className="mb-[1.15rem] text-center text-3xl font-bold">Beyond the Enterprise</h3>
           <p className="mx-auto mb-[3.45rem] max-w-2xl text-center text-lg text-white/70">
