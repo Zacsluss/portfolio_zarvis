@@ -85,7 +85,7 @@ export function About() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="glass-card-hover glass-flash flex h-full flex-col items-center p-[1.725rem] md:col-span-3"
+              className="glass-card-hover glass-flash flex h-full flex-col items-center justify-center p-[1.725rem] md:col-span-3"
             >
               <div className="group relative mb-4">
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-accent-400 to-accent-600 opacity-75 blur transition duration-300 group-hover:opacity-100"></div>
