@@ -317,6 +317,21 @@ graph TB
 ```
 
 <details>
+<summary><b>🔄 Request Flow</b></summary>
+
+<br/>
+
+1. **Client sends message** → POST to `/api/chat` with conversation history
+2. **Rate limiting** → Check IP against Vercel KV (10 req/min limit)
+3. **Input sanitization** → Remove control characters, limit length (5000 chars)
+4. **Cache lookup** → SHA256 hash of messages → Check Vercel KV
+5. **Cache miss** → Call OpenAI GPT-4o with streaming
+6. **Stream response** → Server-Sent Events back to client
+7. **Cache response** → Store in Vercel KV (1hr TTL)
+
+</details>
+
+<details>
 <summary><b>🔄 Data flow pipeline</b></summary>
 
 <br/>
@@ -717,21 +732,6 @@ The AI assistant is built on three core API routes:
 
 - Converts text responses to speech using OpenAI TTS
 - Returns audio stream for voice playback
-
-<details>
-<summary><b>🔄 Request Flow</b></summary>
-
-<br/>
-
-1. **Client sends message** → POST to `/api/chat` with conversation history
-2. **Rate limiting** → Check IP against Vercel KV (10 req/min limit)
-3. **Input sanitization** → Remove control characters, limit length (5000 chars)
-4. **Cache lookup** → SHA256 hash of messages → Check Vercel KV
-5. **Cache miss** → Call OpenAI GPT-4o with streaming
-6. **Stream response** → Server-Sent Events back to client
-7. **Cache response** → Store in Vercel KV (1hr TTL)
-
-</details>
 
 ### Streaming Implementation
 
