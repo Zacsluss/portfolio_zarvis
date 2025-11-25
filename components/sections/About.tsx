@@ -36,7 +36,7 @@ export function About() {
     <section
       id="about"
       ref={ref}
-      className="relative flex items-center overflow-hidden px-[1.15rem] py-[3.45rem] sm:px-[1.725rem] lg:px-[2.3rem]"
+      className="relative flex items-center overflow-hidden px-[1.15rem] py-[2.76rem] sm:px-[1.725rem] lg:px-[2.3rem]"
     >
       {/* Ambient particles */}
       <div className="pointer-events-none absolute inset-0 opacity-40">

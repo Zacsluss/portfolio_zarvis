@@ -60,7 +60,7 @@ export function Leadership() {
   );
 
   return (
-    <section id="leadership" className="relative px-[1.725rem] py-[6.9rem]">
+    <section id="leadership" className="relative px-[1.725rem] py-[5.52rem]">
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <motion.div

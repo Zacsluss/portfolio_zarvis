@@ -29,7 +29,7 @@ export function Skills() {
     <section
       id="skills"
       ref={ref}
-      className="flex min-h-screen items-center bg-gray-900/30 px-[1.15rem] py-[5.75rem] sm:px-[1.725rem] lg:px-[2.3rem]"
+      className="flex min-h-screen items-center bg-gray-900/30 px-[1.15rem] py-[4.6rem] sm:px-[1.725rem] lg:px-[2.3rem]"
     >
       <div className="mx-auto w-full max-w-7xl">
         <motion.div
@@ -52,7 +52,7 @@ export function Skills() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: catIndex * 0.15 }}
-                className="flex h-[750px] flex-col overflow-hidden rounded-lg border border-gray-700/50 bg-gray-800/30 transition-all hover:border-accent-400/30 md:h-[840px]"
+                className="glass-flash flex h-[750px] flex-col overflow-hidden rounded-lg border border-gray-700/50 bg-gray-800/30 transition-all hover:border-accent-400/30 md:h-[840px]"
               >
                 <div className="p-[1.725rem] pb-[1.15rem]">
                   <h3 className="mb-[1.15rem] flex items-center gap-2 text-xl font-bold text-accent-400">

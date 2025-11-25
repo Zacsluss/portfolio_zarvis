@@ -26,7 +26,7 @@ export function Experience() {
     <section
       id="experience"
       ref={ref}
-      className="flex min-h-screen items-center bg-gray-900/30 px-[1.15rem] py-[5.75rem] sm:px-[1.725rem] lg:px-[2.3rem]"
+      className="flex min-h-screen items-center bg-gray-900/30 px-[1.15rem] py-[4.6rem] sm:px-[1.725rem] lg:px-[2.3rem]"
     >
       <div className="mx-auto w-full max-w-6xl">
         <motion.div
