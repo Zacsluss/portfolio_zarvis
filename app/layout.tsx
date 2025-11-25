@@ -5,15 +5,22 @@ import { portfolioData } from '@/lib/portfolio-data';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
 import dynamic from 'next/dynamic';
 
-const MagneticCursor = dynamic(() => import('@/components/effects/MagneticCursor').then(mod => ({ default: mod.MagneticCursor })), {
-  ssr: false,
-  loading: () => null
-});
+const MagneticCursor = dynamic(
+  () =>
+    import('@/components/effects/MagneticCursor').then(mod => ({ default: mod.MagneticCursor })),
+  {
+    ssr: false,
+    loading: () => null,
+  }
+);
 
-const Analytics = dynamic(() => import('@vercel/analytics/react').then(mod => ({ default: mod.Analytics })), {
-  ssr: false,
-  loading: () => null
-});
+const Analytics = dynamic(
+  () => import('@vercel/analytics/react').then(mod => ({ default: mod.Analytics })),
+  {
+    ssr: false,
+    loading: () => null,
+  }
+);
 
 const inter = Inter({
   subsets: ['latin'],
@@ -29,7 +36,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: `${portfolioData.personal.name} - ${portfolioData.personal.title}`,
+  title: 'Zachary Sluss - Portfolio',
   description: portfolioData.personal.tagline,
   keywords: [
     'Zachary Sluss',
@@ -65,11 +72,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${spaceMono.variable}`}>
       <body className="antialiased">

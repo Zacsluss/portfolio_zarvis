@@ -23,18 +23,22 @@ export function Experience() {
   const { experience } = portfolioData;
 
   return (
-    <section id="experience" ref={ref} className="min-h-screen flex items-center py-[5.75rem] px-[1.15rem] sm:px-[1.725rem] lg:px-[2.3rem] bg-gray-900/30">
-      <div className="max-w-6xl mx-auto w-full">
+    <section
+      id="experience"
+      ref={ref}
+      className="flex min-h-screen items-center bg-gray-900/30 px-[1.15rem] py-[5.75rem] sm:px-[1.725rem] lg:px-[2.3rem]"
+    >
+      <div className="mx-auto w-full max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
           {/* Section Header */}
-          <div className="flex items-center gap-[1.15rem] mb-[3.45rem]">
-            <Briefcase className="w-8 h-8 text-accent-400" />
-            <h2 className="text-4xl font-bold text-white quantum-heading">Experience</h2>
-            <div className="flex-1 h-[2px] bg-gradient-to-r from-accent-400 to-transparent" />
+          <div className="mb-[3.45rem] flex items-center gap-[1.15rem]">
+            <Briefcase className="h-8 w-8 text-accent-400" />
+            <h2 className="quantum-heading text-4xl font-bold text-white">Experience</h2>
+            <div className="h-[2px] flex-1 bg-gradient-to-r from-accent-400 to-transparent" />
           </div>
 
           {/* Timeline */}
@@ -45,34 +49,35 @@ export function Experience() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="relative pl-[2.3rem] pb-[2.3rem] border-l-2 border-accent-500/30 last:pb-0"
+                className="relative border-l-2 border-accent-500/30 pb-[2.3rem] pl-[2.3rem] last:pb-0"
               >
                 {/* Timeline dot */}
-                <div className="absolute left-[-9px] top-0 w-4 h-4 bg-accent-400 rounded-full border-4 border-black ring-2 ring-accent-400/20" />
+                <div className="absolute left-[-9px] top-0 h-4 w-4 rounded-full border-4 border-black bg-accent-400 ring-2 ring-accent-400/20" />
 
                 {/* Content */}
                 <div className="glass-card-hover glass-flash p-[1.725rem]">
-                  <div className="flex flex-wrap items-start justify-between gap-[1.15rem] mb-[1.15rem]">
+                  <div className="mb-[1.15rem] flex flex-wrap items-start justify-between gap-[1.15rem]">
                     <div>
                       <h3 className="text-xl font-bold text-white">{exp.position}</h3>
-                      <p className="text-accent-400 font-semibold">{exp.company}</p>
+                      <p className="font-semibold text-accent-400">{exp.company}</p>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-gray-400">
-                      <Calendar className="w-4 h-4" />
+                      <Calendar className="h-4 w-4" />
                       <span suppressHydrationWarning>
-                        {formatDate(exp.startDate)} - {exp.endDate ? formatDate(exp.endDate) : 'Present'}
+                        {formatDate(exp.startDate)} -{' '}
+                        {exp.endDate ? formatDate(exp.endDate) : 'Present'}
                       </span>
                       <span className="text-gray-600">•</span>
                       <Duration startDate={exp.startDate} endDate={exp.endDate} />
                     </div>
                   </div>
 
-                  <p className="text-gray-300 mb-[1.15rem]">{exp.description}</p>
+                  <p className="mb-[1.15rem] text-gray-300">{exp.description}</p>
 
                   {/* Achievements */}
-                  <ul className="space-y-2 mb-[1.15rem]">
+                  <ul className="mb-[1.15rem] space-y-2">
                     {exp.achievements.map((achievement, i) => (
-                      <li key={i} className="flex items-start gap-2 text-gray-400 text-sm">
+                      <li key={i} className="flex items-start gap-2 text-sm text-gray-400">
                         <span className="text-matrix-500 mt-1">▹</span>
                         <span>{achievement}</span>
                       </li>
@@ -82,12 +87,13 @@ export function Experience() {
                   {/* Technologies */}
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, i) => (
-                      <span
+                      <motion.span
                         key={i}
-                        className="px-3 py-1 text-xs bg-matrix-500/10 text-matrix-500 border border-matrix-500/30 rounded-full"
+                        whileHover={{ y: -3, transition: { duration: 0.2 } }}
+                        className="bg-matrix-500/10 text-matrix-500 border-matrix-500/30 cursor-pointer rounded-full border px-3 py-1 text-xs"
                       >
                         {tech}
-                      </span>
+                      </motion.span>
                     ))}
                   </div>
                 </div>
