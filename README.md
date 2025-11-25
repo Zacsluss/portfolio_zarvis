@@ -1510,8 +1510,6 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 By day, I'm a **Principal CRM & Enterprise Platforms Solutions Architect** managing enterprise Salesforce platforms across 20+ countries. By night, I build projects like this — experimenting with AI, conversational interfaces, and creative tech.
 
-**What I'm into:** Conversational AI, serverless architecture, enterprise integrations, building polished user experiences, drone photography, digital art, and music production.
-
 I'm always learning, always shipping. If you're working on something interesting or want to chat about tech, AI, or architecture — reach out!
 
 <div align="center">
