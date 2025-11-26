@@ -1510,6 +1510,8 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 
 ---
 
+## 🔗 Let's Connect
+
 <div align="center">
 
 <a href="https://portfoliozarvis.vercel.app/">
