@@ -40,7 +40,7 @@ An **interactive portfolio website** that goes beyond static pages — featuring
 
 <div align="center">
 
-<img src="/profileai.gif" alt="ZARVIS AI Assistant Demo" width="800"/>
+<img src="public/profileai.gif" alt="ZARVIS AI Assistant Demo" width="800"/>
 
 _ZARVIS AI assistant in action — voice input, streaming responses, and contextual understanding_
 
