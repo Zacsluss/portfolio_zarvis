@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Portfolio%20ZARVIS&fontSize=60&fontAlignY=35&desc=AI-Powered%20Interactive%20Portfolio&descAlignY=55&descSize=20"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=1200&lines=88+tests+%E2%80%A2+38%25+coverage+%E2%80%A2+Next.js+14+%E2%80%A2+GPT-4o+%2B+Whisper+%E2%80%A2+Edge+Runtime+%E2%80%A2+Voice+Input+%E2%80%A2+Streaming+%E2%80%A2+Redis+Cache" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=88+tests+%E2%80%A2+38%25+coverage+%E2%80%A2+Next.js+14+%E2%80%A2+GPT-4o+%2B+Whisper;Edge+Runtime+%E2%80%A2+Voice+Input+%E2%80%A2+Streaming+%E2%80%A2+Redis+Cache" alt="Typing SVG" />
 
 <br/>
 
