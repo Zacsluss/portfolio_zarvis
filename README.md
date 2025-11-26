@@ -1530,13 +1530,13 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
   <img src="https://img.shields.io/badge/ZACSLUSS.GITHUB.IO-2e7d5a?style=for-the-badge"/>
 </a>
 <a href="https://github.com/Zacsluss">
-  <img src="https://img.shields.io/badge/💻_GITHUB-gray?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GITHUB-gray?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 <a href="https://github.com/Zacsluss">
   <img src="https://img.shields.io/badge/@ZACSLUSS-181717?style=for-the-badge"/>
 </a>
 <a href="https://linkedin.com/in/zacharyjsluss">
-  <img src="https://img.shields.io/badge/💼_LINKEDIN-181717?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-gray?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://linkedin.com/in/zacharyjsluss">
   <img src="https://img.shields.io/badge/ZACHARY_SLUSS-064789?style=for-the-badge"/>
@@ -1545,7 +1545,7 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 <br/>
 
 <a href="mailto:zacharyjsluss@gmail.com">
-  <img src="https://img.shields.io/badge/📧_EMAIL-gray?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EMAIL-gray?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="mailto:zacharyjsluss@gmail.com">
   <img src="https://img.shields.io/badge/ZACHARYJSLUSS@GMAIL.COM-b91c1c?style=for-the-badge"/>
