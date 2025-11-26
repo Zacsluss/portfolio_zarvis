@@ -146,7 +146,11 @@ export const portfolioData: PortfolioData = {
       endDate: '2023-07',
       description:
         'Led enterprise-wide CRM transformation and integration initiatives, building the technical foundation for global platform standardization.',
-      achievements: [],
+      achievements: [
+        'Spearheaded Salesforce Multi-Cloud implementation across sales and service operations, establishing integration patterns and data models that became enterprise standards',
+        'Built API-led integration framework connecting Salesforce to Workday HCM and SAP ERP, enabling real-time data synchronization across enterprise systems',
+        'Designed and deployed automated workflow solutions reducing manual processes and establishing foundation for 1,000+ hours of annual automation',
+      ],
       technologies: [
         'Salesforce',
         'MuleSoft',
@@ -165,7 +169,11 @@ export const portfolioData: PortfolioData = {
       endDate: '2022-12',
       description:
         'Drove sales analytics strategy and executive reporting capabilities, establishing data-driven decision frameworks across global operations.',
-      achievements: [],
+      achievements: [
+        'Developed comprehensive analytics frameworks for sales forecasting and pipeline management, establishing reporting standards across 22+ countries',
+        'Designed executive dashboards in Tableau and Power BI providing leadership with visibility into global sales performance and trends',
+        'Implemented data quality controls and validation rules improving CRM data integrity and establishing foundation for enterprise reporting',
+      ],
       technologies: [
         'Salesforce Sales Cloud',
         'Tableau',
