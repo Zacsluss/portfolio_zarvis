@@ -114,6 +114,10 @@ export const portfolioData: PortfolioData = {
         'Serve as enterprise CRM and platforms architect and CRM platform owner for thousands of global users across 20+ countries. Oversee a $3M+ annual CRM, analytics, and integration portfolio aligned to executive and board-level growth objectives, setting architecture standards, roadmaps, and governance for the Salesforce-centric ecosystem.',
       achievements: [
         'Define and govern the enterprise CRM reference architecture and multi-year roadmap spanning Salesforce Multi-Cloud, ERP, and analytics ecosystems, documenting solution designs, architecture diagrams, and integration maps to ensure interoperability, data integrity, and scalable growth across all business units',
+        'Architect and lead a global digital transformation program that increased sales and operational throughput by 40%, automated 1,000+ hours annually, and enforced global process standardization through API-led integration across CRM, ERP, and analytics platforms',
+        'Design and implement the enterprise governance and compliance model, aligning CRM, integration, and analytics platforms to SOX controls and privacy requirements (GDPR, CCPA) and sustaining 100% audit readiness with zero regulatory breaches across all markets',
+        'Architect a managed services pricing platform that integrates automation with standardized product data models, increasing deal velocity by 30% and enforcing a consistent, globally governed pricing strategy',
+        'Enable executive and board-level decision-making by designing Salesforce-centered analytics and dashboards that provide real-time forecasting, pipeline visibility, and revenue insights across regions and product lines',
         'Own the CRM and data platform roadmap, aligning architecture decisions with corporate strategy, M&A integrations, and geographic expansion, while managing initiatives to balance risk, capacity, and long-term scalability',
         'Manage a multi-vendor ecosystem ($3M+ annual portfolio; 10+ contracts) across CRM, integration, analytics, and automation, overseeing vendor selection, contract renewals, and multi-year ROI assessments tied to platform strategy',
         'Provide architectural oversight for a delivery portfolio of 12+ concurrent strategic programs annually, ensuring alignment with reference architectures, on-time delivery, and measurable business outcomes',
@@ -142,11 +146,7 @@ export const portfolioData: PortfolioData = {
       endDate: '2023-07',
       description:
         'Led enterprise-wide CRM transformation and integration initiatives, building the technical foundation for global platform standardization.',
-      achievements: [
-        'Architect and lead a global digital transformation program that improves sales and operational throughput by 40%, automates 1,000+ hours annually, and enforces global process standardization through API-led integration frameworks',
-        'Design and implement the enterprise governance and compliance model, aligning CRM, integration, and analytics platforms to SOX controls and privacy requirements (GDPR, CCPA) to maintain 100% audit readiness and zero regulatory breaches across all markets',
-        'Architect a managed services pricing platform that integrates automation and standardized product data models, increasing deal velocity by 30% and enabling a consistent, globally governed pricing strategy',
-      ],
+      achievements: [],
       technologies: [
         'Salesforce',
         'MuleSoft',
@@ -165,11 +165,7 @@ export const portfolioData: PortfolioData = {
       endDate: '2022-12',
       description:
         'Drove sales analytics strategy and executive reporting capabilities, establishing data-driven decision frameworks across global operations.',
-      achievements: [
-        'Enable executive and board-level decision intelligence by designing Salesforce-centered analytics architectures and dashboards for real-time forecasting, pipeline visibility, and revenue insights across regions and product lines',
-        'Built analytics frameworks for sales forecasting and pipeline management, improving data-driven decision making across 22+ countries',
-        'Implemented data quality controls and validation rules improving CRM data integrity and reporting accuracy',
-      ],
+      achievements: [],
       technologies: [
         'Salesforce Sales Cloud',
         'Tableau',
@@ -379,7 +375,7 @@ export const portfolioData: PortfolioData = {
         { name: 'Microsoft Entra', level: 'Advanced' },
         { name: 'Looker', level: 'Advanced' },
         { name: 'MS Power Platform', level: 'Expert' },
-        { name: 'Oracle Cloud Apps', level: 'Advanced' },
+        { name: 'Oracle Cloud Apps (CRM On Demand, NetSuite)', level: 'Advanced' },
         { name: 'Power BI', level: 'Expert' },
         { name: 'Salesforce Multi-Cloud (Certified)', level: 'Expert', certified: true },
         { name: 'Salesforce CPQ', level: 'Expert' },
@@ -398,7 +394,10 @@ export const portfolioData: PortfolioData = {
       category: 'Integration, Security & Automation',
       skills: [
         { name: 'API Integration & Management (MuleSoft)', level: 'Expert' },
-        { name: 'Automation & Orchestration (Blue Prism, UiPath, Workato)', level: 'Advanced' },
+        {
+          name: 'Automation & Orchestration (Blue Prism, Power Automate, UiPath)',
+          level: 'Advanced',
+        },
         {
           name: 'Collaboration & Delivery (Azure DevOps, Confluence, Jira, Microsoft Teams, Slack)',
           level: 'Expert',
