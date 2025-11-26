@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_RESUME-f97316?style=for-the-badge"/>
 </a>
 
-<br/>
+<p></p>
 
 ![GitHub stars](https://img.shields.io/github/stars/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
 ![GitHub forks](https://img.shields.io/github/forks/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
