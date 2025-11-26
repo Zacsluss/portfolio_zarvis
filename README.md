@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=Portfolio%20ZARVIS&fontSize=60&fontAlignY=35&desc=AI-Powered%20Interactive%20Portfolio&descAlignY=55&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=200&section=header&text=portfolio_zarvis&fontSize=60&fontAlignY=35&desc=AI-Powered%20Interactive%20Portfolio&descAlignY=55&descSize=20"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=88+tests+%E2%80%A2+38%25+coverage+%E2%80%A2+Next.js+14+%E2%80%A2+GPT-4o+%2B+Whisper;Edge+Runtime+%E2%80%A2+Voice+Input+%E2%80%A2+Streaming+%E2%80%A2+Redis+Cache" alt="Typing SVG" />
 
@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/🚀_VIEW_MY_PORTFOLIO-2e7d5a?style=for-the-badge"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/resume.pdf">
-  <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_TEMPLATE-f97316?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_RESUME-f97316?style=for-the-badge"/>
 </a>
 
 <br/><br/>
@@ -20,6 +20,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
 ![License](https://img.shields.io/github/license/Zacsluss/portfolio_zarvis?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/Zacsluss/portfolio_zarvis?style=flat-square)
+![CI/CD](https://img.shields.io/github/actions/workflow/status/Zacsluss/portfolio_zarvis/ci.yml?branch=main&style=flat-square&label=build)
 
 </div>
 
@@ -27,7 +28,7 @@
 
 ## 👋 Hey, I'm Zac
 
-An **interactive portfolio website** that goes beyond static pages — featuring **ZARVIS**, an AI assistant powered by **OpenAI GPT-4o** and **Whisper** that actually knows my background, answers questions about my experience, and demonstrates conversational AI capabilities in production.
+An **interactive portfolio website** that goes beyond static pages — featuring **portfolio_zarvis**, an AI assistant powered by **OpenAI GPT-4o** and **Whisper** that actually knows my background, answers questions about my experience, and demonstrates conversational AI capabilities in production.
 
 **What makes it interesting:**
 
@@ -38,11 +39,13 @@ An **interactive portfolio website** that goes beyond static pages — featuring
 
 **Built with Next.js 14, TypeScript, OpenAI APIs, Vercel Edge, and Redis caching** to showcase both technical depth and design sensibility.
 
+> 💡 **Find this useful?** Give it a ⭐ to show support and help others discover it!
+
 <div align="center">
 
-<img src="public/profileai.gif" alt="ZARVIS AI Assistant Demo" width="800"/>
+<img src="https://raw.githubusercontent.com/Zacsluss/portfolio_zarvis/main/public/profileai.gif" alt="portfolio_zarvis AI Assistant Demo" width="800"/>
 
-_ZARVIS AI assistant in action — voice input, streaming responses, and contextual understanding_
+_portfolio_zarvis AI assistant in action — voice input, streaming responses, and contextual understanding_
 
 </div>
 
@@ -95,25 +98,11 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 - 🎙️ **Voice-powered AI assistant** — Real-time voice transcription via Whisper API with auto-submit
 - 💬 **Intelligent chat interface** — Streaming GPT-4o responses with context awareness and markdown rendering
 - 🎨 **Interactive portfolio sections** — Animated components for About, Skills, Experience, Leadership, and Contact
-- ⚡ **Production-grade infrastructure** — Edge runtime deployment with Redis caching and rate limiting
+- ⚡ **Production-ready infrastructure — Growing test coverage (38% → 80% target)** — Edge runtime deployment with Redis caching and rate limiting
 - 🔒 **Enterprise security** — Server-side API key protection, input sanitization, CSP headers, SOX-compliant patterns
 - 📊 **Observability built-in** — Sentry error tracking, structured logging, graceful error handling
 - 🧪 **Test coverage** — 88 unit + E2E tests covering services, components, and error boundaries
 - 🎭 **Polished animations** — Framer Motion scroll effects, glassmorphism UI, particle backgrounds
-
-### Tech Stack Summary
-
-| Category              | Technologies                                         |
-| --------------------- | ---------------------------------------------------- |
-| **Frontend**          | Next.js 14 (App Router), React 18, TypeScript 5.3    |
-| **AI/ML**             | OpenAI GPT-4o, Whisper API, Server-Sent Events (SSE) |
-| **State & Animation** | Zustand (1KB), Framer Motion 11                      |
-| **Styling**           | Tailwind CSS 3.4, Lucide React Icons                 |
-| **Caching & Storage** | Vercel KV (Redis), SHA256 hashing                    |
-| **Testing**           | Jest 30, Playwright 1.48, Testing Library            |
-| **Monitoring**        | Sentry error tracking, structured logging            |
-| **Deployment**        | Vercel Edge Functions, GitHub Actions                |
-| **Code Quality**      | Prettier, ESLint, Husky, lint-staged                 |
 
 </details>
 
@@ -1527,7 +1516,7 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
   <img src="https://img.shields.io/badge/🌐_PORTFOLIO-gray?style=for-the-badge"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/">
-  <img src="https://img.shields.io/badge/🔗_ZACSLUSS.GITHUB.IO-2e7d5a?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🔗_PORTFOLIOZARVIS.VERCEL.APP-2e7d5a?style=for-the-badge"/>
 </a>
 <a href="https://github.com/Zacsluss">
   <img src="https://img.shields.io/badge/GITHUB-gray?style=for-the-badge&logo=github&logoColor=white"/>
@@ -1539,7 +1528,7 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
   <img src="https://img.shields.io/badge/LINKEDIN-gray?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://linkedin.com/in/zacharyjsluss">
-  <img src="https://img.shields.io/badge/👔_ZACHARY_SLUSS-064789?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/👤_ZACHARY_SLUSS-064789?style=for-the-badge"/>
 </a>
 
 <br/>
@@ -1548,7 +1537,7 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
   <img src="https://img.shields.io/badge/EMAIL-gray?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 <a href="mailto:zacharyjsluss@gmail.com">
-  <img src="https://img.shields.io/badge/📮_ZACHARYJSLUSS@GMAIL.COM-b91c1c?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📧_ZACHARYJSLUSS@GMAIL.COM-b91c1c?style=for-the-badge"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/resume.pdf">
   <img src="https://img.shields.io/badge/📄_RESUME-gray?style=for-the-badge"/>
