@@ -1515,37 +1515,37 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 <div align="center">
 
 <a href="https://portfoliozarvis.vercel.app/">
-  <img src="https://img.shields.io/badge/🌐_PORTFOLIO-gray?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🌐_PORTFOLIO-gray?style=flat-square"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/">
-  <img src="https://img.shields.io/badge/🔗_PORTFOLIOZARVIS.VERCEL.APP-2e7d5a?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🔗_PORTFOLIOZARVIS.VERCEL.APP-2e7d5a?style=flat-square"/>
 </a>
 <a href="https://github.com/Zacsluss">
-  <img src="https://img.shields.io/badge/GITHUB-gray?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GITHUB-gray?style=flat-square&logo=github&logoColor=white"/>
 </a>
 <a href="https://github.com/Zacsluss">
-  <img src="https://img.shields.io/badge/👤_@ZACSLUSS-181717?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/👤_@ZACSLUSS-181717?style=flat-square"/>
 </a>
 <a href="https://linkedin.com/in/zacharyjsluss">
-  <img src="https://img.shields.io/badge/LINKEDIN-gray?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LINKEDIN-gray?style=flat-square&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://linkedin.com/in/zacharyjsluss">
-  <img src="https://img.shields.io/badge/👤_ZACHARY_SLUSS-064789?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/👤_ZACHARY_SLUSS-064789?style=flat-square"/>
 </a>
 
 <br/>
 
 <a href="mailto:zacharyjsluss@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-gray?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EMAIL-gray?style=flat-square&logo=gmail&logoColor=white"/>
 </a>
 <a href="mailto:zacharyjsluss@gmail.com">
-  <img src="https://img.shields.io/badge/📧_ZACHARYJSLUSS@GMAIL.COM-b91c1c?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📧_ZACHARYJSLUSS@GMAIL.COM-b91c1c?style=flat-square"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/resume.pdf">
-  <img src="https://img.shields.io/badge/📄_RESUME-gray?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📄_RESUME-gray?style=flat-square"/>
 </a>
 <a href="https://portfoliozarvis.vercel.app/resume.pdf">
-  <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_PDF-7c3aed?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_PDF-7c3aed?style=flat-square"/>
 </a>
 
 <br/>
