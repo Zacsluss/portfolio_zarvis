@@ -55,6 +55,7 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 
 - [⚡ What This Does](#-what-this-does)
 - [🛠️ Tech Stack](#️-tech-stack)
+- [🔗 Why These Choices?](#-why-these-choices)
 - [🏗️ How It Works - Architecture](#️-how-it-works---architecture)
 - [🚀 Quick Start](#-quick-start)
   - [Prerequisites](#prerequisites)
