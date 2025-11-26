@@ -178,23 +178,6 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 </div>
 
 <details>
-<summary><b>Why These Choices?</b></summary>
-
-<br/>
-
-| Technology                 | Rationale                                                                | Trade-off                            |
-| -------------------------- | ------------------------------------------------------------------------ | ------------------------------------ |
-| **Next.js 14 App Router**  | Server-side API routes protect API keys, streaming support, edge runtime | More complex routing vs Pages Router |
-| **TypeScript Strict Mode** | Catch 80% of bugs before production, superior DX                         | Slightly slower development          |
-| **OpenAI GPT-4o**          | State-of-the-art reasoning, fast responses, vision capabilities          | API costs (~$0.005/1K tokens)        |
-| **Zustand**                | Lightweight (1KB), no boilerplate, TypeScript-first                      | Less ecosystem vs Redux              |
-| **Framer Motion**          | Best-in-class animations, gesture support, layout animations             | 45KB bundle size                     |
-| **Vercel KV**              | Distributed caching, edge-compatible, sub-10ms latency                   | External dependency, Redis syntax    |
-| **Jest + Playwright**      | Unit tests (fast feedback) + E2E tests (real user flows)                 | Dual test setup complexity           |
-
-</details>
-
-<details>
 <summary><b>📦 Full dependency list</b></summary>
 
 <br/>
@@ -235,6 +218,25 @@ _ZARVIS AI assistant in action — voice input, streaming responses, and context
 ```
 
 </details>
+
+</details>
+
+---
+
+<details>
+<summary><b>🔗 Why These Choices?</b></summary>
+
+<br/>
+
+| Technology                 | Rationale                                                                | Trade-off                            |
+| -------------------------- | ------------------------------------------------------------------------ | ------------------------------------ |
+| **Next.js 14 App Router**  | Server-side API routes protect API keys, streaming support, edge runtime | More complex routing vs Pages Router |
+| **TypeScript Strict Mode** | Catch 80% of bugs before production, superior DX                         | Slightly slower development          |
+| **OpenAI GPT-4o**          | State-of-the-art reasoning, fast responses, vision capabilities          | API costs (~$0.005/1K tokens)        |
+| **Zustand**                | Lightweight (1KB), no boilerplate, TypeScript-first                      | Less ecosystem vs Redux              |
+| **Framer Motion**          | Best-in-class animations, gesture support, layout animations             | 45KB bundle size                     |
+| **Vercel KV**              | Distributed caching, edge-compatible, sub-10ms latency                   | External dependency, Redis syntax    |
+| **Jest + Playwright**      | Unit tests (fast feedback) + E2E tests (real user flows)                 | Dual test setup complexity           |
 
 </details>
 
