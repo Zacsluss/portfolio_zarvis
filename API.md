@@ -1,7 +1,7 @@
 # API Documentation
 
 ## Overview
-This document describes the REST API endpoints for the ZARVIS AI Portfolio application.
+This document describes the REST API endpoints for the portfolio AI application.
 
 All API routes are server-side Next.js API routes located in `/app/api/*`.
 

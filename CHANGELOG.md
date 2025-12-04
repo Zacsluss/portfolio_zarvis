@@ -5,14 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.0] - 2025-01-19
+## [1.1.0] - 2024-11-19
 
 ### Added
-- Distributed rate limiting with Vercel KV support (fixes serverless cold start issues)
-- Response caching service for common questions (30-50% cost reduction)
-- Service layer architecture (APIError, RateLimitService, CacheService)
-- Architecture diagram in README with Mermaid
-- Comprehensive test coverage for core utilities
+- Distributed rate limiting with Vercel KV support (fixes serverless cold start issues).
+- Response caching service for common questions (30-50% cost reduction).
+- Service layer architecture (APIError, RateLimitService, CacheService).
+- Architecture diagram in README with Mermaid.
+- Comprehensive test coverage for core utilities.
 - JSDoc documentation for critical functions
 - GitHub Actions CI/CD pipeline
 - Issue and pull request templates

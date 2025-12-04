@@ -13,9 +13,9 @@ This project is actively maintained. Security updates are provided for the lates
 This portfolio implements several security best practices:
 
 ### 1. Content Security Policy (CSP)
-- Strict CSP headers prevent XSS attacks
-- Scripts and styles only from trusted sources
-- External resources limited to verified CDNs
+- Strict CSP headers prevent XSS attacks.
+- Scripts and styles only from trusted sources.
+- External resources limited to verified CDNs.
 
 ### 2. Input Validation & Sanitization
 - All user inputs are validated and sanitized

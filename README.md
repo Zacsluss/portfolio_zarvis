@@ -53,7 +53,6 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 <details>
 <summary><b>📚 Table of Contents</b></summary>
-
 <br/>
 
 - [⚡ What This Does](#-what-this-does)
