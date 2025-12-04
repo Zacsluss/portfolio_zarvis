@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Sophisticated Apple-inspired palette
+        // Professional color palette
         accent: {
           50: '#f0f9ff',
           100: '#e0f2fe',

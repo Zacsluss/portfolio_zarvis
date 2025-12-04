@@ -4,6 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Enable strict mode for better development experience
   reactStrictMode: true,
   swcMinify: true,
   images: {

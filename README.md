@@ -101,7 +101,7 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 - 🔒 **Enterprise security** — Server-side API key protection, input sanitization, CSP headers, SOX-compliant patterns
 - 📊 **Observability built-in** — Sentry error tracking, structured logging, graceful error handling
 - 🧪 **Test coverage** — 88 unit + E2E tests covering services, components, and error boundaries
-- 🎭 **Polished animations** — Framer Motion scroll effects, glassmorphism UI, particle backgrounds
+- 🎭 **Polished animations** — Framer Motion scroll effects, glassmorphism UI, particle backgrounds.
 
 </details>
 
