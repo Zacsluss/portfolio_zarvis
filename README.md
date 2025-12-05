@@ -1492,7 +1492,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 <div align="center">
 
-By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect** at Computershare, managing multi-million-dollar Salesforce ecosystems and enterprise integrations across 20+ countries. By night, I build projects like this.
+By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect** at a Fortune 500 company, managing multi-million-dollar Salesforce ecosystems and enterprise integrations across 20+ countries. By night, I build projects like this.
 
 **Always learning, always building.**
 
