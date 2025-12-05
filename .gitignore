@@ -45,3 +45,9 @@ next-env.d.ts
 # IDE specific
 .idea/
 *.iml
+
+# Deployment artifacts and configs
+*deploy*.sh
+*deploy*.py
+sentry.*.config.*
+.github/workflows/
