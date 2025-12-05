@@ -152,6 +152,14 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 <img src="https://img.shields.io/badge/Framer_Motion-11.0-ff006e?style=flat-square"/><br/>
 <sub><b>Animations</b></sub>
 </td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/React-18.3-61dafb?style=flat-square&logo=react&logoColor=white"/><br/>
+<sub><b>UI Library</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Lucide-0.344-f56565?style=flat-square"/><br/>
+<sub><b>Icons</b></sub>
+</td>
 </tr>
 </table>
 
