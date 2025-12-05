@@ -1,6 +1,6 @@
 # Architecture Decision Records (ADRs)
 
-This directory contains Architecture Decision Records (ADRs) for significant architectural and design decisions made in this project.
+This directory contains Architecture Decision Records (ADRs) for significant architectural and design decisions made in this project
 
 ## What is an ADR?
 

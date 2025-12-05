@@ -2,8 +2,8 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
 /**
- * Middleware to add security headers to all responses
- * Implements Content Security Policy, CORS, and other security best practices
+ * Middleware to add security headers to all responses.
+ * Implements Content Security Policy, CORS, and other security best practices.
  */
 export function middleware(request: NextRequest) {
   const response = NextResponse.next();
