@@ -67,26 +67,7 @@ export class CacheService {
     const key = this.generateKey(content);
 
     try {
-      // Try to use Vercel KV if available
-      if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        try {
-          const { kv } = await import('@vercel/kv');
-          const cached = await kv.get<string>(key);
-
-          if (cached) {
-            logger.info('Cache hit', { key, contentPreview: content.substring(0, 50) });
-            return cached;
-          }
-
-          logger.debug('Cache miss', { key });
-          return null;
-        } catch (kvError) {
-          logger.warn('Vercel KV unavailable, falling back to in-memory', { error: kvError });
-          // Fall through to in-memory implementation
-        }
-      }
-
-      // In-memory fallback
+      // In-memory cache implementation
       const cached = this.memoryCache.get(key);
 
       if (cached && cached.expiresAt > Date.now()) {
@@ -129,20 +110,7 @@ export class CacheService {
     const key = this.generateKey(content);
 
     try {
-      // Try to use Vercel KV if available
-      if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        try {
-          const { kv } = await import('@vercel/kv');
-          await kv.set(key, response, { ex: this.TTL_SECONDS });
-          logger.info('Response cached', { key, ttl: this.TTL_SECONDS });
-          return;
-        } catch (kvError) {
-          logger.warn('Vercel KV unavailable, falling back to in-memory', { error: kvError });
-          // Fall through to in-memory implementation
-        }
-      }
-
-      // In-memory fallback
+      // In-memory cache implementation
       const expiresAt = Date.now() + this.TTL_SECONDS * 1000;
       this.memoryCache.set(key, { value: response, expiresAt });
       logger.info('Response cached (in-memory)', { key, ttl: this.TTL_SECONDS });

@@ -51,3 +51,4 @@ next-env.d.ts
 *deploy*.py
 sentry.*.config.*
 .github/workflows/
+.claude/

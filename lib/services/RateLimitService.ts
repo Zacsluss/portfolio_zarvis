@@ -38,34 +38,7 @@ export class RateLimitService {
     const windowMs = API_CONFIG.RATE_LIMIT.WINDOW_MS;
 
     try {
-      // Try to use Vercel KV if available
-      if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        try {
-          const { kv } = await import('@vercel/kv');
-
-          // Atomic increment
-          const count = await kv.incr(key);
-
-          if (count === 1) {
-            // First request in window - set expiry
-            await kv.pexpire(key, windowMs);
-          }
-
-          const remaining = Math.max(0, limit - count);
-          const allowed = count <= limit;
-
-          if (!allowed) {
-            logger.warn('Rate limit exceeded', { ip, count, limit });
-          }
-
-          return { allowed, remaining };
-        } catch (kvError) {
-          logger.warn('Vercel KV unavailable, falling back to in-memory', { error: kvError });
-          // Fall through to in-memory implementation
-        }
-      }
-
-      // In-memory fallback for development or when KV is unavailable
+      // In-memory implementation
       const now = Date.now();
       const record = this.memoryStore.get(key);
 

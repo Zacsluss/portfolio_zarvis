@@ -14,13 +14,6 @@ const MagneticCursor = dynamic(
   }
 );
 
-const Analytics = dynamic(
-  () => import('@vercel/analytics/react').then(mod => ({ default: mod.Analytics })),
-  {
-    ssr: false,
-    loading: () => null,
-  }
-);
 
 const inter = Inter({
   subsets: ['latin'],
@@ -79,7 +72,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ErrorBoundary>
           <MagneticCursor />
           {children}
-          <Analytics />
         </ErrorBoundary>
       </body>
     </html>
