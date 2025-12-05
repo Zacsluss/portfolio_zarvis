@@ -6,10 +6,10 @@
 
 <br/>
 
-<a href="https://github.com/Zacsluss/portfolio_zarvis">
+<a href="https://portfoliozarvis.vercel.app/">
   <img src="https://img.shields.io/badge/🚀_OPEN_PORTFOLIO-2e7d5a?style=for-the-badge"/>
 </a>
-<a href="https://github.com/Zacsluss/portfolio_zarvis/blob/main/public/resume.pdf">
+<a href="https://portfoliozarvis.vercel.app/resume.pdf">
   <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_RESUME-f97316?style=for-the-badge"/>
 </a>
 
@@ -1512,8 +1512,8 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 
 <div align="center">
 
-<a href="https://github.com/Zacsluss/portfolio_zarvis">
-  <img src="https://img.shields.io/badge/Portfolio-GitHub_Repository-2e7d5a?style=for-the-badge&logo=github&logoColor=white"/>
+<a href="https://portfoliozarvis.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-portfoliozarvis.vercel.app-2e7d5a?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 <a href="https://github.com/Zacsluss">
   <img src="https://img.shields.io/badge/GitHub-@Zacsluss-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -1524,7 +1524,7 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 <a href="mailto:zacharyjsluss@gmail.com">
   <img src="https://img.shields.io/badge/Email-zacharyjsluss@gmail.com-b91c1c?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://github.com/Zacsluss/portfolio_zarvis/blob/main/public/resume.pdf">
+<a href="https://portfoliozarvis.vercel.app/resume.pdf">
   <img src="https://img.shields.io/badge/Resume-Download_PDF-7c3aed?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
 </a>
 
