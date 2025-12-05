@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://github.com/Zacsluss/portfolio_zarvis">
-  <img src="https://img.shields.io/badge/🚀_VIEW_CODE-2e7d5a?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🚀_OPEN_PORTFOLIO-2e7d5a?style=for-the-badge"/>
 </a>
 <a href="https://github.com/Zacsluss/portfolio_zarvis/blob/main/public/resume.pdf">
   <img src="https://img.shields.io/badge/⬇️_DOWNLOAD_RESUME-f97316?style=for-the-badge"/>
