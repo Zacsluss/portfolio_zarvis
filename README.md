@@ -20,7 +20,6 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/Zacsluss/portfolio_zarvis?style=flat-square&logo=github)
 ![License](https://img.shields.io/github/license/Zacsluss/portfolio_zarvis?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/Zacsluss/portfolio_zarvis?style=flat-square)
-![CI/CD](https://img.shields.io/github/actions/workflow/status/Zacsluss/portfolio_zarvis/ci.yml?branch=main&style=flat-square&label=build)
 
 </div>
 
@@ -152,14 +151,6 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 <td align="center" width="25%">
 <img src="https://img.shields.io/badge/Framer_Motion-11.0-ff006e?style=flat-square"/><br/>
 <sub><b>Animations</b></sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Vercel_KV-3.0-000000?style=flat-square&logo=vercel&logoColor=white"/><br/>
-<sub><b>Redis Cache</b></sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Sentry-8.0-362d59?style=flat-square&logo=sentry&logoColor=white"/><br/>
-<sub><b>Error Monitoring</b></sub>
 </td>
 </tr>
 </table>
