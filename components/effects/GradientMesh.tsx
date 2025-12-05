@@ -22,11 +22,11 @@ export function GradientMesh() {
     resize();
     window.addEventListener('resize', resize);
 
-    // Gradient orbs configuration - increased speed 50x for visible movement
+    // Gradient orbs configuration with enhanced animation speeds
     const orbs = [
-      { x: 0.2, y: 0.3, size: 400, color: [14, 165, 233], speed: 0.015, pulseSpeed: 0.01 }, // Sky blue
-      { x: 0.8, y: 0.6, size: 350, color: [99, 102, 241], speed: 0.020, pulseSpeed: 0.012 }, // Indigo
-      { x: 0.5, y: 0.8, size: 300, color: [168, 85, 247], speed: 0.010, pulseSpeed: 0.008 }, // Purple
+      { x: 0.2, y: 0.3, size: 400, color: [14, 165, 233], speed: 0.015, pulseSpeed: 0.01 },  // Sky blue
+      { x: 0.8, y: 0.6, size: 350, color: [99, 102, 241], speed: 0.020, pulseSpeed: 0.012 },  // Indigo
+      { x: 0.5, y: 0.8, size: 300, color: [168, 85, 247], speed: 0.010, pulseSpeed: 0.008 },  // Purple
     ];
 
     const animate = () => {

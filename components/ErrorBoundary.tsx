@@ -29,12 +29,12 @@ export class ErrorBoundary extends Component<Props, State> {
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    // Log error using logger (automatically handles dev/prod environments)
+    // Log error using logger - automatically handles dev/prod environments
     logger.error('Error caught by boundary:', error, { errorInfo });
 
-    // In production, you could send this to an error tracking service
+    // In production, send to error tracking service
     if (process.env.NODE_ENV === 'production') {
-      // Example: logErrorToService(error, errorInfo);
+      // Example: logErrorToService(error, errorInfo)
     }
   }
 
