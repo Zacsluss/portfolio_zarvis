@@ -50,10 +50,9 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
-<details>
-<summary><b>📚 Table of Contents</b></summary>
-<br/>
+## Table of Contents
 
+- [👋 Hey, I'm Zac](#-hey-im-zac)
 - [⚡ What This Does](#-what-this-does)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [🔗 Why These Choices?](#-why-these-choices)
@@ -74,8 +73,6 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
   - [Troubleshooting](#troubleshooting)
 - [📄 License & Contributing](#-license--contributing)
 - [📬 About & Connect](#-about--connect)
-
-</details>
 
 ---
 
