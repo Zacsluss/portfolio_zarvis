@@ -54,32 +54,35 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 <summary><b>📚 Table of Contents</b></summary>
 <br/>
 
-- [⚡ What This Does](#-what-this-does)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🔗 Why These Choices?](#-why-these-choices)
-- [🏗️ How It Works - Architecture](#️-how-it-works---architecture)
-- [🚀 Quick Start](#-quick-start)
+- [⚡ What This Does](#what-this-does)
+- [🛠️ Tech Stack](#tech-stack)
+- [🔗 Why These Choices?](#why-these-choices)
+- [🏗️ How It Works - Architecture](#how-it-works---architecture)
+- [🚀 Quick Start](#quick-start)
   - [Prerequisites](#prerequisites)
   - [Local Development](#local-development)
   - [Production Build](#production-build)
   - [Deploy to Vercel](#deploy-to-vercel)
   - [Customize for Yourself](#customize-for-yourself)
-- [🔬 Technical Deep Dive](#-technical-deep-dive)
+- [🔬 Technical Deep Dive](#technical-deep-dive)
+  - [Security and Performance Features](#security-and-performance-features)
   - [AI Assistant Implementation](#ai-assistant-implementation)
   - [Performance Benchmarks](#performance-benchmarks)
-  - [Testing & Code Quality](#testing--code-quality)
-  - [Observability & Monitoring](#observability--monitoring)
+  - [Testing and Code Quality](#testing-and-code-quality)
+  - [Observability and Monitoring](#observability-and-monitoring)
   - [Advanced Configuration](#advanced-configuration)
   - [Troubleshooting](#troubleshooting)
-- [📄 License & Contributing](#-license--contributing)
-- [📬 About & Connect](#-about--connect)
+- [📄 License & Contributing](#license-and-contributing)
+- [📬 About & Connect](#about-and-connect)
 
 </details>
 
 ---
 
+## What This Does
+
 <details>
-<summary><b>⚡ What This Does</b></summary>
+<summary><b>View Details</b></summary>
 
 <br/>
 
@@ -106,8 +109,10 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
+## Tech Stack
+
 <details open>
-<summary><b>🛠️ Tech Stack</b></summary>
+<summary><b>View Tech Stack</b></summary>
 
 <br/>
 
@@ -211,8 +216,10 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
+## Why These Choices
+
 <details>
-<summary><b>🔗 Why These Choices?</b></summary>
+<summary><b>View Rationale</b></summary>
 
 <br/>
 
@@ -230,8 +237,10 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
+## How It Works - Architecture
+
 <details open>
-<summary><b>🏗️ How It Works - Architecture</b></summary>
+<summary><b>View Architecture</b></summary>
 
 <br/>
 
@@ -431,8 +440,10 @@ sequenceDiagram
 
 ---
 
+## Quick Start
+
 <details>
-<summary><b>🚀 Quick Start</b></summary>
+<summary><b>View Setup Instructions</b></summary>
 
 <br/>
 
@@ -446,8 +457,10 @@ sequenceDiagram
 git clone https://github.com/Zacsluss/portfolio_zarvis.git && cd portfolio_zarvis && npm install && npm run dev
 ```
 
+### Prerequisites
+
 <details>
-<summary><b>📋 Prerequisites</b></summary>
+<summary><b>📋 View Prerequisites</b></summary>
 
 <br/>
 
@@ -467,8 +480,10 @@ npm -v   # Should be v9+
 
 </details>
 
+### Local Development
+
 <details>
-<summary><b>💻 Local Development</b></summary>
+<summary><b>💻 View Local Development Steps</b></summary>
 
 <br/>
 
@@ -529,8 +544,10 @@ Open [http://localhost:3000](http://localhost:3000) in your browser!
 
 </details>
 
+### Production Build
+
 <details>
-<summary><b>🏗️ Production Build</b></summary>
+<summary><b>🏗️ View Production Build Steps</b></summary>
 
 <br/>
 
@@ -575,8 +592,10 @@ First Load JS shared by all             87.4 kB
 
 </details>
 
+### Deploy to Vercel
+
 <details>
-<summary><b>☁️ Deploy to Vercel</b></summary>
+<summary><b>☁️ View Deployment Steps</b></summary>
 
 <br/>
 
@@ -629,8 +648,10 @@ vercel --prod
 
 </details>
 
+### Customize for Yourself
+
 <details>
-<summary><b>🎨 Customize for Yourself</b></summary>
+<summary><b>🎨 View Customization Guide</b></summary>
 
 <br/>
 
@@ -702,13 +723,17 @@ theme: {
 
 ---
 
+## Technical Deep Dive
+
 <details>
-<summary><b>🔬 Technical Deep Dive</b></summary>
+<summary><b>View Technical Details</b></summary>
 
 <br/>
 
+### Security and Performance Features
+
 <details>
-<summary><b>🔒 Security & Performance Features</b></summary>
+<summary><b>🔒 View Security & Performance Details</b></summary>
 
 <br/>
 
@@ -739,8 +764,10 @@ theme: {
 
 </details>
 
+### AI Assistant Implementation
+
 <details>
-<summary><b>🤖 AI Assistant Implementation</b></summary>
+<summary><b>🤖 View AI Implementation Details</b></summary>
 
 <br/>
 
@@ -840,8 +867,10 @@ CAPABILITIES:
 
 </details>
 
+### Performance Benchmarks
+
 <details>
-<summary><b>⚡ Performance Benchmarks</b></summary>
+<summary><b>⚡ View Performance Metrics</b></summary>
 
 <br/>
 
@@ -923,8 +952,10 @@ const AmbientParticles = dynamic(() => import('@/components/effects/AmbientParti
 
 </details>
 
+### Testing and Code Quality
+
 <details>
-<summary><b>🧪 Testing & Code Quality</b></summary>
+<summary><b>🧪 View Testing & Quality Details</b></summary>
 
 <br/>
 
@@ -1021,8 +1052,10 @@ npx tsc --noEmit         # Type check without building
 
 </details>
 
+### Observability and Monitoring
+
 <details>
-<summary><b>📊 Observability & Monitoring</b></summary>
+<summary><b>📊 View Monitoring Details</b></summary>
 
 <br/>
 
@@ -1085,8 +1118,10 @@ logger.error('API error', { error, statusCode: 500 });
 
 </details>
 
+### Advanced Configuration
+
 <details>
-<summary><b>⚙️ Advanced Configuration</b></summary>
+<summary><b>⚙️ View Configuration Options</b></summary>
 
 <br/>
 
@@ -1218,8 +1253,10 @@ controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 
 </details>
 
+### Troubleshooting
+
 <details>
-<summary><b>🔧 Troubleshooting</b></summary>
+<summary><b>🔧 View Troubleshooting Guide</b></summary>
 
 <br/>
 
@@ -1376,8 +1413,10 @@ controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 
 ---
 
+## License and Contributing
+
 <details>
-<summary><b>📄 License & Contributing</b></summary>
+<summary><b>View License & Contributing Info</b></summary>
 
 <br/>
 
@@ -1493,8 +1532,10 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 ---
 
+## About and Connect
+
 <details open>
-<summary><b>📬 About & Connect</b></summary>
+<summary><b>View Contact Information</b></summary>
 
 <br/>
 
