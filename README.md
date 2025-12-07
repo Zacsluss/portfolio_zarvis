@@ -116,11 +116,6 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 <br/>
 
-<details open>
-<summary><b>What Powers This Portfolio</b></summary>
-
-<br/>
-
 <div align="center">
 
 ### Core Technologies
@@ -212,8 +207,6 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 </details>
 
-</details>
-
 ---
 
 ## 🔗 Why These Choices?
@@ -241,11 +234,6 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 <details open>
 <summary><b>View Architecture</b></summary>
-
-<br/>
-
-<details open>
-<summary><b>System Architecture & Data Flow</b></summary>
 
 <br/>
 
@@ -716,8 +704,6 @@ theme: {
 - Add/remove sections in `app/page.tsx`
 - Create new section components in `components/sections/`
 - Update navigation in `components/navigation/Navigation.tsx`
-
-</details>
 
 </details>
 
@@ -1409,8 +1395,6 @@ controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 
 </details>
 
-</details>
-
 ---
 
 ## 📄 License & Contributing
@@ -1525,8 +1509,6 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 - **v1.0.0** (2024-01-15) - Initial release with GPT-4o and Whisper integration
 - **v1.0.1** (2024-01-20) - Added Sentry error tracking and improved caching
-
-</details>
 
 </details>
 
