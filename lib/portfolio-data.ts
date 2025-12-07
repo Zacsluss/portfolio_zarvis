@@ -515,14 +515,6 @@ export const portfolioData: PortfolioData = {
       image: 'portfolio-images/crystalblitzpicture.png',
     },
     {
-      id: 'link-15',
-      title: 'GitHub Profile',
-      description: 'Open source projects, code repositories, and software development work',
-      url: 'https://github.com/Zacsluss',
-      category: 'Personal Projects',
-      image: 'portfolio-images/github.png',
-    },
-    {
       id: 'link-9',
       title: 'Particle Physics Simulator',
       description:
