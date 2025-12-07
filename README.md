@@ -38,8 +38,6 @@ An **interactive portfolio website** that goes beyond static pages — featuring
 
 **Built with Next.js 14, TypeScript, OpenAI APIs, Vercel Edge, and Redis caching** to showcase both technical depth and design sensibility.
 
-> 💡 **Find this useful?** Give it a ⭐ to show support and help others discover it!
-
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Zacsluss/portfolio_zarvis/main/public/profileai.gif" alt="portfolio_zarvis AI Assistant Demo" width="800"/>
