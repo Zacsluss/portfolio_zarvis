@@ -27,7 +27,7 @@
 
 ## 👋 Hey, I'm Zac
 
-An **interactive portfolio website** that goes beyond static pages — featuring **portfolio_zarvis**, an AI assistant powered by **OpenAI GPT-4o** and **Whisper** that actually knows my background, answers questions about my experience, and demonstrates conversational AI capabilities in production.
+Welcome to my **interactive portfolio website** that goes beyond static pages — featuring **portfolio_zarvis**, an AI assistant powered by **OpenAI GPT-4o** and **Whisper** that actually knows my background, answers questions about my experience, and demonstrates conversational AI capabilities in production.
 
 **What makes it interesting:**
 
