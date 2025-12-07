@@ -55,7 +55,7 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 - [👋 Hey, I'm Zac](#-hey-im-zac)
 - [⚡ What This Does](#-what-this-does)
 - [🛠️ Tech Stack](#️-tech-stack)
-- [🔗 Why These Choices?](#-why-these-choices)
+- [🔗 Why These Choices](#-why-these-choices)
 - [🏗️ How It Works - Architecture](#️-how-it-works---architecture)
 - [🚀 Quick Start](#-quick-start)
   - [Prerequisites](#prerequisites)
@@ -206,7 +206,7 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
-## 🔗 Why These Choices?
+## 🔗 Why These Choices
 
 <details>
 <summary><b>View Rationale</b></summary>
@@ -1528,7 +1528,7 @@ By day, I work as a **Principal CRM & Enterprise Platforms Solutions Architect**
 
 ---
 
-## 🔗 Let's Connect
+### 🔗 Let's Connect
 
 <div align="center">
 
