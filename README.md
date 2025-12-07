@@ -54,32 +54,32 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 <summary><b>📚 Table of Contents</b></summary>
 <br/>
 
-- [⚡ What This Does](#what-this-does)
-- [🛠️ Tech Stack](#tech-stack)
-- [🔗 Why These Choices?](#why-these-choices)
-- [🏗️ How It Works - Architecture](#how-it-works---architecture)
-- [🚀 Quick Start](#quick-start)
+- [⚡ What This Does](#-what-this-does)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🔗 Why These Choices?](#-why-these-choices)
+- [🏗️ How It Works - Architecture](#️-how-it-works---architecture)
+- [🚀 Quick Start](#-quick-start)
   - [Prerequisites](#prerequisites)
   - [Local Development](#local-development)
   - [Production Build](#production-build)
   - [Deploy to Vercel](#deploy-to-vercel)
   - [Customize for Yourself](#customize-for-yourself)
-- [🔬 Technical Deep Dive](#technical-deep-dive)
-  - [Security and Performance Features](#security-and-performance-features)
+- [🔬 Technical Deep Dive](#-technical-deep-dive)
+  - [Security & Performance Features](#security--performance-features)
   - [AI Assistant Implementation](#ai-assistant-implementation)
   - [Performance Benchmarks](#performance-benchmarks)
-  - [Testing and Code Quality](#testing-and-code-quality)
-  - [Observability and Monitoring](#observability-and-monitoring)
+  - [Testing & Code Quality](#testing--code-quality)
+  - [Observability & Monitoring](#observability--monitoring)
   - [Advanced Configuration](#advanced-configuration)
   - [Troubleshooting](#troubleshooting)
-- [📄 License & Contributing](#license-and-contributing)
-- [📬 About & Connect](#about-and-connect)
+- [📄 License & Contributing](#-license--contributing)
+- [📬 About & Connect](#-about--connect)
 
 </details>
 
 ---
 
-## What This Does
+## ⚡ What This Does
 
 <details>
 <summary><b>View Details</b></summary>
@@ -109,7 +109,7 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 <details open>
 <summary><b>View Tech Stack</b></summary>
@@ -216,7 +216,7 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
-## Why These Choices
+## 🔗 Why These Choices?
 
 <details>
 <summary><b>View Rationale</b></summary>
@@ -237,7 +237,7 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
-## How It Works - Architecture
+## 🏗️ How It Works - Architecture
 
 <details open>
 <summary><b>View Architecture</b></summary>
@@ -440,7 +440,7 @@ sequenceDiagram
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 <details>
 <summary><b>View Setup Instructions</b></summary>
@@ -723,14 +723,14 @@ theme: {
 
 ---
 
-## Technical Deep Dive
+## 🔬 Technical Deep Dive
 
 <details>
 <summary><b>View Technical Details</b></summary>
 
 <br/>
 
-### Security and Performance Features
+### Security & Performance Features
 
 <details>
 <summary><b>🔒 View Security & Performance Details</b></summary>
@@ -952,7 +952,7 @@ const AmbientParticles = dynamic(() => import('@/components/effects/AmbientParti
 
 </details>
 
-### Testing and Code Quality
+### Testing & Code Quality
 
 <details>
 <summary><b>🧪 View Testing & Quality Details</b></summary>
@@ -1052,7 +1052,7 @@ npx tsc --noEmit         # Type check without building
 
 </details>
 
-### Observability and Monitoring
+### Observability & Monitoring
 
 <details>
 <summary><b>📊 View Monitoring Details</b></summary>
@@ -1413,7 +1413,7 @@ controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 
 ---
 
-## License and Contributing
+## 📄 License & Contributing
 
 <details>
 <summary><b>View License & Contributing Info</b></summary>
@@ -1532,7 +1532,7 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 
 ---
 
-## About and Connect
+## 📬 About & Connect
 
 <details open>
 <summary><b>View Contact Information</b></summary>
