@@ -25,6 +25,8 @@
 
 ---
 
+<a name="hey-im-zac"></a>
+
 ## 👋 Hey, I'm Zac
 
 An **interactive portfolio website** that goes beyond static pages — featuring **portfolio_zarvis**, an AI assistant powered by **OpenAI GPT-4o** and **Whisper** that actually knows my background, answers questions about my experience, and demonstrates conversational AI capabilities in production.
@@ -52,18 +54,18 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ## Table of Contents
 
-- [👋 Hey, I'm Zac](#-hey-im-zac)
-- [⚡ What This Does](#-what-this-does)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🔗 Why These Choices?](#-why-these-choices)
-- [🏗️ How It Works - Architecture](#️-how-it-works---architecture)
-- [🚀 Quick Start](#-quick-start)
+- [👋 Hey, I'm Zac](#hey-im-zac)
+- [⚡ What This Does](#what-this-does)
+- [🛠️ Tech Stack](#tech-stack)
+- [🔗 Why These Choices?](#why-these-choices)
+- [🏗️ How It Works - Architecture](#how-it-works---architecture)
+- [🚀 Quick Start](#quick-start)
   - [Prerequisites](#prerequisites)
   - [Local Development](#local-development)
   - [Production Build](#production-build)
   - [Deploy to Vercel](#deploy-to-vercel)
   - [Customize for Yourself](#customize-for-yourself)
-- [🔬 Technical Deep Dive](#-technical-deep-dive)
+- [🔬 Technical Deep Dive](#technical-deep-dive)
   - [Security & Performance Features](#security--performance-features)
   - [AI Assistant Implementation](#ai-assistant-implementation)
   - [Performance Benchmarks](#performance-benchmarks)
@@ -71,10 +73,12 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
   - [Observability & Monitoring](#observability--monitoring)
   - [Advanced Configuration](#advanced-configuration)
   - [Troubleshooting](#troubleshooting)
-- [📄 License & Contributing](#-license--contributing)
-- [📬 About & Connect](#-about--connect)
+- [📄 License & Contributing](#license--contributing)
+- [📬 About & Connect](#about--connect)
 
 ---
+
+<a name="what-this-does"></a>
 
 ## ⚡ What This Does
 
@@ -105,6 +109,8 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 </details>
 
 ---
+
+<a name="tech-stack"></a>
 
 ## 🛠️ Tech Stack
 
@@ -206,6 +212,8 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 
 ---
 
+<a name="why-these-choices"></a>
+
 ## 🔗 Why These Choices?
 
 <details>
@@ -226,6 +234,8 @@ _portfolio_zarvis AI assistant in action — voice input, streaming responses, a
 </details>
 
 ---
+
+<a name="how-it-works---architecture"></a>
 
 ## 🏗️ How It Works - Architecture
 
@@ -425,6 +435,8 @@ sequenceDiagram
 
 ---
 
+<a name="quick-start"></a>
+
 ## 🚀 Quick Start
 
 <details>
@@ -441,6 +453,8 @@ sequenceDiagram
 ```bash
 git clone https://github.com/Zacsluss/portfolio_zarvis.git && cd portfolio_zarvis && npm install && npm run dev
 ```
+
+<a name="prerequisites"></a>
 
 ### Prerequisites
 
@@ -464,6 +478,8 @@ npm -v   # Should be v9+
 ```
 
 </details>
+
+<a name="local-development"></a>
 
 ### Local Development
 
@@ -529,6 +545,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser!
 
 </details>
 
+<a name="production-build"></a>
+
 ### Production Build
 
 <details>
@@ -576,6 +594,8 @@ First Load JS shared by all             87.4 kB
 ```
 
 </details>
+
+<a name="deploy-to-vercel"></a>
 
 ### Deploy to Vercel
 
@@ -632,6 +652,8 @@ vercel --prod
 - 🌍 Distributed across edge locations
 
 </details>
+
+<a name="customize-for-yourself"></a>
 
 ### Customize for Yourself
 
@@ -706,12 +728,16 @@ theme: {
 
 ---
 
+<a name="technical-deep-dive"></a>
+
 ## 🔬 Technical Deep Dive
 
 <details>
 <summary><b>View Technical Details</b></summary>
 
 <br/>
+
+<a name="security--performance-features"></a>
 
 ### Security & Performance Features
 
@@ -746,6 +772,8 @@ theme: {
 - ✅ **API quota detection**: Graceful handling of OpenAI rate limits
 
 </details>
+
+<a name="ai-assistant-implementation"></a>
 
 ### AI Assistant Implementation
 
@@ -850,6 +878,8 @@ CAPABILITIES:
 
 </details>
 
+<a name="performance-benchmarks"></a>
+
 ### Performance Benchmarks
 
 <details>
@@ -934,6 +964,8 @@ const AmbientParticles = dynamic(() => import('@/components/effects/AmbientParti
 </details>
 
 </details>
+
+<a name="testing--code-quality"></a>
 
 ### Testing & Code Quality
 
@@ -1035,6 +1067,8 @@ npx tsc --noEmit         # Type check without building
 
 </details>
 
+<a name="observability--monitoring"></a>
+
 ### Observability & Monitoring
 
 <details>
@@ -1100,6 +1134,8 @@ logger.error('API error', { error, statusCode: 500 });
 - OpenAI token usage and costs
 
 </details>
+
+<a name="advanced-configuration"></a>
 
 ### Advanced Configuration
 
@@ -1235,6 +1271,8 @@ controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 ```
 
 </details>
+
+<a name="troubleshooting"></a>
 
 ### Troubleshooting
 
@@ -1394,6 +1432,8 @@ controller.enqueue(encoder.encode(`data: ${JSON.stringify(chunk)}\n\n`));
 
 ---
 
+<a name="license--contributing"></a>
+
 ## 📄 License & Contributing
 
 <details>
@@ -1510,6 +1550,8 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and release notes.
 </details>
 
 ---
+
+<a name="about--connect"></a>
 
 ## 📬 About & Connect
 
